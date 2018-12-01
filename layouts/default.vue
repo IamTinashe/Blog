@@ -30,91 +30,77 @@
           </div>
         </div>
         <div class="row connect">
-          <div class="col-md-6">
-            <form>
-              <h4 class="subtitle">Subscribe</h4>
-              <p class="fonts-three">Receive updates and news directly from me. Enter your email below.</p>
-              <div class="input-group">
-                <input
-                  class="input-group-field form-control"
-                  type="email"
-                  placeholder="Email"
-                  required>
-                <button class="button">Subscribe</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <h4 class="subtitle">Connect with me!</h4>
             <div class="social-icons">
               <a
                 href="https://wa.me/905347745196"
                 target="_blank"
                 title="WhatsApp">
-                <i class="fa fa-whatsapp fa-1x"/>
+                <i class="fa fa-whatsapp fa-2x"/>
               </a>
 
               <a
                 href="https://www.facebook.com/TinashePride"
                 target="_blank"
                 title="Facebook">
-                <i class="fa fa-facebook fa-1x"/>
+                <i class="fa fa-facebook fa-2x"/>
               </a>
 
               <a
                 href="https://twitter.com/IamTinashe__"
                 target="_blank"
                 title="Twitter">
-                <i class="fa fa-twitter fa-1x"/>
+                <i class="fa fa-twitter fa-2x"/>
               </a>
 
               <a
                 href="https://www.linkedin.com/in/tinashepride"
                 target="_blank"
                 title="LinkedIn">
-                <i class="fa fa-linkedin fa-1x"/>
+                <i class="fa fa-linkedin fa-2x"/>
               </a>
 
               <a
                 href="https://github.com/LekkaTinashe"
                 target="_blank"
                 title="Github">
-                <i class="fa fa-github fa-1x"/>
+                <i class="fa fa-github fa-2x"/>
               </a>
 
               <a
                 href="https://www.instagram.com/iamtinashe_"
                 target="_blank"
                 title="Instagram">
-                <i class="fa fa-instagram fa-1x"/>
+                <i class="fa fa-instagram fa-2x"/>
               </a>
 
               <a
                 href="https://soundcloud.com/tinashe-zvihwati"
                 target="_blank"
                 title="Soundcloud">
-                <i class="fa fa-soundcloud fa-1x"/>
+                <i class="fa fa-soundcloud fa-2x"/>
               </a>
 
               <a
                 href="https://www.youtube.com/user/tinashepride"
                 target="_blank"
                 title="Youtube">
-                <i class="fa fa-youtube fa-1x"/>
+                <i class="fa fa-youtube fa-2x"/>
               </a>
 
               <a
                 href="https://www.snapchat.com/add/tinashepride"
                 target="_blank"
                 title="Snapchat">
-                <i class="fa fa-snapchat-ghost fa-1x"/>
+                <i class="fa fa-snapchat-ghost fa-2x"/>
               </a>
 
               <a
                 href="https://steamcommunity.com/id/iamtinashe"
                 target="_blank"
                 title="Steam">
-                <i class="fa fa-steam fa-1x"/>
+                <i class="fa fa-steam fa-2x"/>
               </a>
             </div>
           </div>
@@ -274,8 +260,8 @@ a:hover {
 }
 
 .fa {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .fa:hover {
