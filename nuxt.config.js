@@ -32,7 +32,8 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: ['~/plugins/github-activity'
+  plugins: [
+    '~/plugins/github-activity'
   ],
 
   /*
