@@ -154,7 +154,6 @@ html {
 }
 
 .wrapper {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -265,6 +264,7 @@ a:hover {
 }
 
 .fa:hover {
+
   opacity: 0.2;
 }
 

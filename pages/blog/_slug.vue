@@ -1,29 +1,48 @@
 <template>
     <div style="width: 100%;">
-        <div class="row div-spacing position">
+        <div class="row div-spacing position" style="margin-bottom: 10px;">
             <div class="col-md-12" style="text-align: left;">
-                <h1 class="display-3" style="font-size: 2.3em;">{{ post.title }}</h1>
+                <h1 class="display-3" style="font-size: 2.3em; margin-left: 30px;">{{ post.title }}</h1>
             </div>
         </div>
         <div class="row">
-          <div class="col-md-12 nopadding">
-            <!--<img
-              :src='getImgUrl(post.imagename)'
-              class="image-post"
-              data-holder-rendered="true"/> -->
-          </div>
-        </div>
-        <div class="mid-sec row nopadding">
-          <div class="blog-content col-md-9 ">
-            <div class="paragraphs">
-              <p class="lead note" style="font-size: 1.2em;">{{ post.content }}</p>
+          <div class="col-md-9 nopadding wrapper">
+            <div class="row">
+              <div class="col-md-12">
+                <img
+                :src="getImgPath(post.imagename)"
+                class="image-post"
+                data-holder-rendered="true"/>
+              </div>
             </div>
-            <div class="meta-div col-md-6"><i class="fa fa-user fa-x"></i><small>{{ post.author }}</small></div> 
-            <div class="meta-div col-md-6"><i class="fa fa-tags fa-x"></i><small>{{ post.category }}</small></div>
+            <div class="mid-sec row nopadding">
+              <div class="blog-content col-md-12 ">
+                <div class="paragraphs">
+                  <p class="lead note" style="font-size: 1.2em;">{{ post.content }}</p>
+                </div>
+                <div class="meta-div col-md-6">
+                  <i class="fa fa-user fa-x"/>
+                  <small>{{ post.author }}</small>
+                </div> 
+                <div class="meta-div col-md-6">
+                  <i class="fa fa-tags fa-x"/>
+                  <small>{{ post.category }}</small>
+                </div>
+              </div>
+            </div>
+            <div class="row position div-spacing">
+              Comments Here
+            </div>
           </div>
           <div class="blog-side-bar col-md-3 nopadding">
             <div class="side-video">
-              <iframe width="100%" :src="getVideoUrl(post.videourl)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                width="100%"
+                :src="getVideoUrl(post.videourl)"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
             </div>
           </div>
         </div>
@@ -50,8 +69,9 @@ export default {
     }
   },
   methods: {
-    getImgUrl(pic) {
-      return require('../../assets/blogs/'+pic)
+    getImgPath(pic) {
+      var ImagePath = '/_nuxt/assets/blogs/' + this.post.imagename
+      return ImagePath
    },
    getVideoUrl(video) {
       return video
@@ -102,7 +122,7 @@ export default {
 
 <style>
 .image-post {
-  width: 100%;
+  width: 95%;
   border-radius: 2px 2px 2px 2px;
 }
 
