@@ -140,6 +140,7 @@ export default {
 <style>
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css';
 
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -160,15 +161,10 @@ html {
   width: 100%;
 }
 
-.background-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transition: 1s opacity;
+.div-spacing {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
 }
 
 .wrapper {

@@ -109,6 +109,24 @@
         </div>
       </div>
     </div>
+    <div class="row position div-spacing">
+     <div class="widget col-md-4">
+       <div class="card mb-4 shadow-sm">
+          <github-feed login="IamTinashe"></github-feed>
+        </div>
+     </div>
+     <div class="widget col-md-4">
+       <div class="card mb-4 shadow-sm">
+          <iframe src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx" width="100%"
+            height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+     </div>
+     <div class="widget col-md-4">
+       <div class="card mb-4 shadow-sm">
+          Microposts Here!
+        </div>
+     </div>
+    </div>
   </div>
 </template>
 
@@ -181,11 +199,6 @@ export default {
 </script>
 
 <style>
-.div-spacing {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100%;
-}
 .image-circular {
   border-radius: 300px 300px 300px 300px;
   width: 15%;
