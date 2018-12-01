@@ -127,6 +127,40 @@
         </div>
      </div>
     </div>
+    <div class="row position div-spacing" >
+      <form method="post" style="width: 100%;">
+        <div class="row">
+          <div class="col-md-12" style="text-align: left;">
+            <h3 class="subtitle" >Send me a message</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" value="" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" class="form-control" placeholder="Email" value="" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" class="form-control" placeholder="Phone Number" value="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea name="message" class="form-control" placeholder="Your Message" style="width: 100%; height: 150px;"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="submit" name="btnSubmit" class="button" value="Send Message" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 

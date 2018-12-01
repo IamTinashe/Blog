@@ -23,7 +23,7 @@ export default {
       // Array will be automatically processed with visualization.arrayToDataTable function
       chartData: [
         ['', 'Java', 'PHP', 'JavaScript'],
-        ['Skill', 0.8, 0.60, 0.50]
+        [' ', 0.8, 0.60, 0.50]
       ]
     }
   },
