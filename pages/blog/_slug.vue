@@ -65,6 +65,9 @@ s.setAttribute('data-timestamp', +new Date());
                 allowfullscreen>
               </iframe>
             </div>
+            <div class="row">
+              <adsbygoogle />
+            </div>
           </div>
         </div>
     </div>
@@ -96,11 +99,6 @@ export default {
    },
    getVideoUrl(video) {
       return video
-   },
-   getPageUrl() {
-     var pageUrl = 'http://159.69.120.82/blog/' + this.post.slug
-     console.log(pageUrl)
-     return pageUrl
    }
   },
   head() {
@@ -121,6 +119,10 @@ export default {
           content: this.post.category + ', Web Development, Nodejs, Vuejs, Mongodb, NGINX'
         },
         {
+          name: 'google-site-verification',
+          content: 'Nvtxn485Uph-S7HHc_RiwvMb6lUkM-43KLCV05xUNZo'
+        },
+        {
           'property': 'og:site_name',
           'content': 'Tinashe Zvihwati'
         },
@@ -138,7 +140,7 @@ export default {
         },
         {
           'property': 'og:url',
-          'content': 'https://www.tinashe.io'
+          'content': 'https://www.iamtinashe.io'
         }
       ],
     }

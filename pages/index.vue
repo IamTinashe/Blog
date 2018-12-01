@@ -208,6 +208,10 @@ export default {
           content: 'Web Development, Nodejs, Vuejs, Mongodb, NGINX'
         },
         {
+          name: 'google-site-verification',
+          content: 'Nvtxn485Uph-S7HHc_RiwvMb6lUkM-43KLCV05xUNZo'
+        },
+        {
           property: 'og:site_name',
           content: 'Tinashe Zvihwati'
         },
@@ -225,7 +229,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.tinashe.io'
+          content: 'https://www.iamtinashe.io'
         }
       ]
     }
