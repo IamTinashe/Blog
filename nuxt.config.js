@@ -43,10 +43,7 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt',
-    '@nuxtjs/google-adsense', {
-      id: 'ca-pub-3817231220206981'
-    }
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Axios module configuration
