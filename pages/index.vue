@@ -190,13 +190,14 @@ export default {
       return require('../assets/blogs/' + pic)
     }
   },
-  metaInfo() {
+  head() {
     return {
       title: 'Tinashe Zvihwati',
       meta: [
         {
+          hid: 'description',
           name: 'description',
-          content: 'I am a webdeveloper, beatmaker and photographer'
+          content: 'I am a Web Developer, beatmaker and photographer'
         },
         {
           name: 'author',
@@ -220,7 +221,7 @@ export default {
         },
         {
           property: 'og:description',
-          content: 'I am a webdeveloper, beatmaker and photographer'
+          content: 'I am a Web Developer, beatmaker and photographer'
         },
         {
           property: 'og:url',

@@ -57,18 +57,43 @@ export default {
       return video
    }
   },
-  metaInfo () {
+  head() {
     return {
       title: this.post.title,
       meta: [
-        {name: 'description',content: this.post.description},
-        {name: 'author',content: 'Tinashe Zvihwati'},
-        {name: 'keywords',content: this.post.category + ', Web Development, Nodejs, Vuejs, Mongodb, NGINX'},
-        {'property': 'og:site_name','content': 'Tinashe Zvihwati'},
-        {'property': 'og:type','content': 'website'},
-        {'property': 'og:title','content': this.post.title},
-        {'property': 'og:description','content': this.post.description},
-        {'property': 'og:url','content': 'https://www.tinashe.io'}
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.post.description
+        },
+        {
+          name: 'author',
+          content: 'Tinashe Zvihwati'
+        },
+        {
+          name: 'keywords',
+          content: this.post.category + ', Web Development, Nodejs, Vuejs, Mongodb, NGINX'
+        },
+        {
+          'property': 'og:site_name',
+          'content': 'Tinashe Zvihwati'
+        },
+        {
+          'property': 'og:type',
+          'content': 'website'
+        },
+        {
+          'property': 'og:title',
+          'content': this.post.title
+        },
+        {
+          'property': 'og:description',
+          'content': this.post.description
+        },
+        {
+          'property': 'og:url',
+          'content': 'https://www.tinashe.io'
+        }
       ],
     }
   }
