@@ -22,8 +22,8 @@ export default {
       chartsLib: null,
       // Array will be automatically processed with visualization.arrayToDataTable function
       chartData: [
-        ['', 'Java', 'PHP', 'JavaScript'],
-        [' ', 0.8, 0.60, 0.50]
+        ['', 'HTML', 'CSS', 'PHP', 'JavaScript', 'Bootstrap', 'Git', 'Java'],
+        [' ', 0.85, 0.75, 0.60, 0.50, 0.55, 0.65, 0.8]
       ]
     }
   },
@@ -33,8 +33,8 @@ export default {
       return this.chartsLib.charts.Bar.convertOptions({
         bars: 'horizontal', // Required for Material Bar Charts.
         hAxis: { format: 'percent' },
-        height: 110,
-        colors: ['#0ab928', '#eeee00', '#ff0000' ]
+        height: 250,
+        colors: ['#0ab928', '#eeee00', '#ff0000', '#000000', '#ff0000', '#eeee00', '#0ab928' ]
       })
     }
   },
