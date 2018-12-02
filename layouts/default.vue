@@ -62,7 +62,7 @@
               </a>
 
               <a
-                href="https://github.com/LekkaTinashe"
+                href="https://github.com/IamTinashe"
                 target="_blank"
                 title="Github">
                 <i class="fa fa-github fa-2x"/>

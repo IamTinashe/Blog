@@ -33,7 +33,7 @@ export default {
       return this.chartsLib.charts.Bar.convertOptions({
         bars: 'horizontal', // Required for Material Bar Charts.
         hAxis: { format: 'percent' },
-        height: 250,
+        height: 260,
         colors: ['#0ab928', '#eeee00', '#ff0000', '#000000', '#ff0000', '#eeee00', '#0ab928' ]
       })
     }
