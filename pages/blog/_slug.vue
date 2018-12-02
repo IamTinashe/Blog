@@ -49,7 +49,7 @@
               </iframe>
             </div>
             <div class="row">
-              <adsbygoogle />
+              Some Ad Here
             </div>
           </div>
         </div>
