@@ -30,7 +30,7 @@
         <hr>
         <div class="row prof-blok">
           <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-two">Current</p>
+            <p class="fonts-seven">Current</p>
           </div>
           <div class="md-col-6" style="width: 70%;">
             <p class="fonts-six">Support Engineer</p>
@@ -42,7 +42,7 @@
         <hr>
         <div class="row prof-blok">
           <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-two">Education</p>
+            <p class="fonts-seven">Education</p>
           </div>
           <div class="md-col-6" style="width: 70%;">
             <p class="fonts-six">Bsc. in Computer Engineering</p>
@@ -53,7 +53,7 @@
         <hr>
         <div class="row prof-blok">
           <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-two">Skillset</p>
+            <p class="fonts-seven">Skillset</p>
           </div>
           <div class="md-col-6" style="width: 70%;">
             <Skillset/>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="album py-5">
+    <div class="album py-5 ">
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
@@ -109,25 +109,37 @@
         </div>
       </div>
     </div>
-    <div class="row position div-spacing">
-     <div class="widget col-md-4">
+    <div class="album py-5 div-spacing">
+     <div class="widget col-md-4 position" style="float: left;">
        <div class="card mb-4 shadow-sm">
           <github-feed login="IamTinashe"></github-feed>
         </div>
      </div>
-     <div class="widget col-md-4">
+     <div class="widget col-md-4" style="float: left;">
        <div class="card mb-4 shadow-sm">
-          <iframe src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx" width="100%"
-            height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx"
+            width="100%"
+            height="600"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media" />
         </div>
      </div>
-     <div class="widget col-md-4">
+     <div class="widget col-md-4" style="float: left;">
        <div class="card mb-4 shadow-sm">
-          Microposts Here!
+          <iframe
+            width="100%"
+            height="600"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/514850361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
         </div>
      </div>
     </div>
-    <div class="row position div-spacing" >
+    <div class="row position div-spacing" style="float: none;
+    margin: 0 auto;" >
       <form method="post" style="width: 100%;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">

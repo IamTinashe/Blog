@@ -227,13 +227,19 @@ a:hover {
 
 .fonts-six {
   font-weight: 320;
-  font-size: 15px;
+  font-size: 13px;
   color: #526488;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: justify;
+}
+
+.fonts-seven {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
 }
 
 .nopadding {
