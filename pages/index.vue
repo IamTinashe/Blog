@@ -56,51 +56,51 @@
             <p class="fonts-seven">Bio</p>
           </div>
           <div class="md-col-6" style="width: 70%;">
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Full Name:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">Tinashe Zvihwati</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Profession:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">Computer Engineer</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Nationality:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">Zimbabwean</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Current:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">Izmir, Turkey</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Languages:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">English, Shona, Turkish</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row" style="margin-left: 0px;">
+              <div style="width: 30%;">
                 <p class="fonts-six">Travelled:</p>
               </div>
-              <div class="col-md-8">
+              <div style="width: 70%;">
                 <p class="fonts-six">
                   South Africa,
                   United Arab Emirates,
@@ -120,10 +120,9 @@
     <div class="row position div-spacing">
       <div class="col-md-12">
         <div class="row prof-blok">
-          <div class="md-col-5" style="width: 10%; margin-left: 15px;">
-            <p class="fonts-seven">Skillset</p>
+          <div class="md-col-5" style="width: 0%; margin-left: 15px;">
           </div>
-          <div class="md-col-12" style="width: 88%;">
+          <div class="md-col-12" style="width: 98%;">
             <Skillset/>
           </div>
         </div>
