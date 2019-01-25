@@ -1,45 +1,13 @@
 <template>
   <div>
-    <div
-      class="row position"
-      style="
-        background-image: url('/background.jpg');
-        background-size: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-        position: relative;
-        margin-top: 50px;
-      " >
-      <div 
-        class="position"
-        style="
-          margin-top: 50px;
-          padding-bottom: 0px;
-          margin-bottom: 0px;
-        ">
+    <div class="row position" style="background-image: url('/background.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px;" >
+      <div class="position" style=" margin-top: 50px; padding-bottom: 0px; margin-bottom: 0px;">
         <h1 class="title">Hi there, I'm Tinashe</h1>
       </div>
-      <div
-        class="position"
-        style="
-          padding-top: 0px;
-          margin-top: 0px;
-          padding-bottom: 0px;
-          margin-bottom: 0px;
-        ">
+      <div class="position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; ">
         <h2 class="subtitle">Welcome to my portfolio</h2>
       </div>
-      <div
-        class="profile-image position"
-        style="
-          padding-top: 0px;
-          margin-top: 0px;
-          padding-bottom: 0px;
-          margin-bottom: 80px;
-        ">
+      <div class="profile-image position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 80px;">
         <img class="image-circular" src="@/assets/tinashe.png">
       </div>
     </div>
@@ -157,19 +125,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="album py-5"
-      style="
-        background-image: url('/background2.jpeg');
-        background-size: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-        position: relative;
-        margin-top: 50px;
-      ">
+    <div class="album py-5" style=" background-image: url('/background2.jpeg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px;">
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
@@ -246,20 +202,7 @@
         </div>
      </div>
     </div>
-    <div
-      class="row position div-spacing"
-      style="
-        background-image: url('/background3.jpg');
-        background-size: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-        position: relative;
-        margin-top: 50px;
-        float: none;
-      ">
+    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px; float: none; ">
       <form method="post" style="width: 80%; padding: 80px 0px 80px 0px;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">
