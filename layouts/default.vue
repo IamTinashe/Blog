@@ -1,8 +1,8 @@
 <template>
   <div>
     <t-header/>
-    <div class="container">
-      <div class="row">
+    <div class="nopadding" style="width: 100%; margin-right: 0px;">
+      <div class="row nopadding" style="width: 100%;">
         <nuxt/>
       </div>
       <footer class="position">

@@ -1,26 +1,65 @@
 <template>
   <div>
-    <div class="row position div-spacing">
-      <div class="position">
+    <div
+      class="row position"
+      style="
+        background-image: url('/background.jpg');
+        background-size: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+      " >
+      <div 
+        class="position"
+        style="
+          margin-top: 50px;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+        ">
         <h1 class="title">Hi there, I'm Tinashe</h1>
       </div>
-      <div class="position">
+      <div
+        class="position"
+        style="
+          padding-top: 0px;
+          margin-top: 0px;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+        ">
         <h2 class="subtitle">Welcome to my portfolio</h2>
       </div>
-      <div class="profile-image position">
+      <div
+        class="profile-image position"
+        style="
+          padding-top: 0px;
+          margin-top: 0px;
+          padding-bottom: 0px;
+          margin-bottom: 80px;
+        ">
         <img class="image-circular" src="@/assets/tinashe.png">
       </div>
     </div>
+
+    <div class="position" style="height: 50px;">
+    </div>
+
     <div class="position div-spacing row nopadding">
       <div class="col-md-6">
         <p class="lead">
-          Yes, I am a developer. Welcome to my website! I am a full-stack developer based in Turkey.
-          I like to write about my experiences so be sure to check out my blog. It's packed with interesting
-          experiences and a whole bunch of cool tricks and flips that I have had along the way.
+          Hello there, I'm Tinashe. Born in Marondera and grew up in Harare, I'm currently
+          based in Izmir, Turkey. I like to write about my experiences, opinions and ideas.
+          Interests and hobbies include, coding, sport, photography, making music, travelling,
+          and writing. Last but not least, I like to taste and take pictures of different
+          beers around the world.
         </p>
         <p class="lead">
-          I have been learning JavaScript Frameworks lately so I decided to make this website as my first
-          project in VueJS. If you are interested in how I made it,
+          You probably guessed right already, Yes, I am a developer.  I have been learning
+          JavaScript Frameworks lately so I decided to make this website as my first project in
+          VueJS. If you are interested in how I made it,
           <router-link :to="'/how-i-developed-my-website'">Click Here</router-link>
         </p>
         <p class="lead">Have fun browsing through, and let me know if you find anything interesting!</p>
@@ -106,6 +145,7 @@
                   United Arab Emirates,
                   Turkey,
                   Namibia,
+                  Qatar,
                   Egypt,
                   Zambia,
                   Botswana,
@@ -117,18 +157,19 @@
         </div>
       </div>
     </div>
-    <div class="row position div-spacing">
-      <div class="col-md-12">
-        <div class="row prof-blok">
-          <div class="md-col-5" style="width: 0%; margin-left: 15px;">
-          </div>
-          <div class="md-col-12" style="width: 98%;">
-            <Skillset/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="album py-5 ">
+    <div
+      class="album py-5"
+      style="
+        background-image: url('/background2.jpeg');
+        background-size: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+      ">
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
@@ -205,9 +246,21 @@
         </div>
      </div>
     </div>
-    <div class="row position div-spacing" style="float: none;
-    margin: 0 auto;" >
-      <form method="post" style="width: 100%;">
+    <div
+      class="row position div-spacing"
+      style="
+        background-image: url('/background3.jpg');
+        background-size: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        float: none;
+      ">
+      <form method="post" style="width: 80%; padding: 80px 0px 80px 0px;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">
             <h3 class="subtitle" >Send me a message</h3>
