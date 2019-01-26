@@ -1,21 +1,23 @@
 <template>
   <div>
-    <div class="row position" style="background-image: url('/background.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px;" >
+    <div class="row position" style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; margin-top: 100px;" >
+      <div class="cover-img" style="background-image: url('/background.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; position: fixed; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 80%; z-index: -1; margin-top: 0px;">
+      </div>
       <div class="position" style=" margin-top: 50px; padding-bottom: 0px; margin-bottom: 0px;">
-        <h1 class="title">Hi there, I'm Tinashe</h1>
+        <h1 class="title" style="color: #ffffff;">Hi there, I'm Tinashe</h1>
       </div>
       <div class="position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; ">
-        <h2 class="subtitle">Welcome to my portfolio</h2>
+        <h2 class="subtitle" style="color: #ffffff;">Welcome to my portfolio</h2>
       </div>
       <div class="profile-image position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 80px;">
         <img class="image-circular" src="@/assets/tinashe.png">
       </div>
     </div>
 
-    <div class="position" style="height: 50px;">
+    <div class="position" style="height: 50px; background: #ffffff;">
     </div>
 
-    <div class="position div-spacing row nopadding">
+    <div class="position div-spacing row nopadding" style="background: #ffffff;">
       <div class="col-md-6">
         <p class="lead">
           Hello there, I'm Tinashe. Born in Marondera and grew up in Harare, I'm currently
@@ -125,7 +127,9 @@
         </div>
       </div>
     </div>
-    <div class="album py-5" style=" background-image: url('/background2.jpeg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px;">
+
+
+    <div class="album py-5" style=" background-image: url('/background2.jpeg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px;">
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
@@ -173,14 +177,16 @@
         </div>
       </div>
     </div>
-    <div class="album py-5 div-spacing">
-     <div class="widget col-md-4 position" style="float: left;">
-       <div class="card mb-4 shadow-sm">
+
+
+    <div class="album py-5 div-spacing" style="background: #ffffff; position: relative; margin-bottom: 0px; height: 700px;">
+      <div class="widget col-md-4 position" style="float: left;">
+        <div class="card mb-4 shadow-sm">
           <github-feed login="IamTinashe"></github-feed>
         </div>
-     </div>
-     <div class="widget col-md-4" style="float: left;">
-       <div class="card mb-4 shadow-sm">
+      </div>
+      <div class="widget col-md-4" style="float: left;">
+        <div class="card mb-4 shadow-sm">
           <iframe
             src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx"
             width="100%"
@@ -189,9 +195,9 @@
             allowtransparency="true"
             allow="encrypted-media" />
         </div>
-     </div>
-     <div class="widget col-md-4" style="float: left;">
-       <div class="card mb-4 shadow-sm">
+      </div>
+      <div class="widget col-md-4" style="float: left;">
+        <div class="card mb-4 shadow-sm">
           <iframe
             width="100%"
             height="600"
@@ -200,9 +206,11 @@
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/514850361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
         </div>
-     </div>
+      </div>
     </div>
-    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; margin-top: 50px; float: none; ">
+
+
+    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px; float: none; ">
       <form method="post" style="width: 80%; padding: 80px 0px 80px 0px;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">
@@ -313,6 +321,7 @@ export default {
 </script>
 
 <style>
+
 .image-circular {
   border-radius: 300px 300px 300px 300px;
   width: 15%;

@@ -5,8 +5,8 @@
       <div class="row nopadding" style="width: 100%;">
         <nuxt/>
       </div>
-      <footer class="position">
-        <div class="row">
+      <footer class="position " style="background: #ffffff; padding-top: 100px; width: 100%;">
+        <div class="row" style="width: 80%; margin-left: 10%;">
           <div class="col-md-4">
             <i class="fa fa-code fa-3x"/>
             <h4 class="subtitle">Coding</h4>
@@ -148,8 +148,8 @@ html {
 }
 
 .div-spacing {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
 }
 
@@ -157,10 +157,6 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.nav-bar {
-  position: fixed;
 }
 
 .footer {
