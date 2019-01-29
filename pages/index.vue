@@ -129,7 +129,7 @@
     </div>
 
 
-    <div class="album py-5" style=" background-image: url('/background2.jpeg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px;">
+    <div class="album py-5" style=" background-image: url('/background2.jpeg'); background-position: center; background-size: cover; background-repeat: no-repeat; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px;">
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
@@ -321,6 +321,7 @@ export default {
 </script>
 
 <style>
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 .image-circular {
   border-radius: 300px 300px 300px 300px;
