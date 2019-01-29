@@ -15,22 +15,28 @@
           Profile
         </router-link>
         <router-link
+          :to="'/blog'"
+          class="navbar-brand d-flex align-items-center"
+          style="font-size: 15px;">
+          Blog
+        </router-link>
+        <router-link
           :to="'/photography'"
           class="navbar-brand d-flex align-items-center"
           style="font-size: 15px;">
           Photography
         </router-link>
         <router-link
+          :to="'/videos'"
+          class="navbar-brand d-flex align-items-center"
+          style="font-size: 15px;">
+          Videos
+        </router-link>
+        <router-link
           :to="'/music'"
           class="navbar-brand d-flex align-items-center"
           style="font-size: 15px;">
           Music
-        </router-link>
-        <router-link
-          :to="'/blog'"
-          class="navbar-brand d-flex align-items-center"
-          style="font-size: 15px;">
-          Blog
         </router-link>
         <router-link
           :to="'/connect'"

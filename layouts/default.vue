@@ -29,7 +29,7 @@
             </p>
           </div>
         </div>
-        <div class="row connect">
+        <div class="connect">
           <div class="col-md-12">
             <h4 class="subtitle">Connect with me!</h4>
             <div class="social-icons">

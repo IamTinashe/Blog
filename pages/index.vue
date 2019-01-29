@@ -210,11 +210,11 @@
     </div>
 
 
-    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-size: 100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px; float: none; ">
+    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px; float: none; ">
       <form method="post" style="width: 80%; padding: 80px 0px 80px 0px;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">
-            <h3 class="subtitle" >Send me a message</h3>
+            <h3 class="subtitle" style="color: #ffffff;" >Send me a message</h3>
           </div>
         </div>
         <div class="row">
