@@ -97,12 +97,16 @@
           <div
             style="border-radius: 2px 2px 2px 2px; background: #ffffff; text-align: left; margin-left: 5px; float: right; width: 100%; height: 300px;"
           >
-            <GmapMap v-bind:center="center" v-bind:zoom="16" style="height: 300px;">
-              <GmapMarker 
-                v-bind:position="markers.position"
-                v-bind:clickable="true"
-              ></GmapMarker>
-            </GmapMap>
+            <GmapMap :center="{lat: -17.824220, lng: 31.049363}" :zoom="18" map-type-id="terrain" style="width: 100%; height: 100%">
+							<GmapMarker
+								:key="index"
+								v-for="(m, index) in markers"
+								:position="m.position"
+								:clickable="true"
+								:draggable="true"
+								@click="center=m.position"
+							/>
+						</GmapMap>
           </div>
         </div>
       </div>
@@ -113,14 +117,11 @@
 <script>
 export default {
   data() {
-		return {
-			center: {lat: -17.824220, lng: 31.049363},
-			markers: [
-				{
-					position: {lat: -17.824220, lng: 31.049363}
-				}
-			]
-		};
-	}
+    return {
+      markers: [
+        {position: {lat: -17.824220, lng: 31.049363}}
+      ]
+    };
+  }
 };
 </script>
