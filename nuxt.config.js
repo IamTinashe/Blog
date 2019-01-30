@@ -53,7 +53,8 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '~/plugins/github-activity'
+    '~/plugins/github-activity',
+     {src: "~/plugins/vue-google-maps.js"}
   ],
 
   /*
