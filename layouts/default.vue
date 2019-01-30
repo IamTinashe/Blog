@@ -119,7 +119,51 @@
 <script>
 import Header from '@/components/header'
 export default {
-  components: { 't-header': Header }
+  components: { 't-header': Header },
+  head() {
+    return {
+      title: 'Tinashe\'s Website',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+        },
+        {
+          name: 'author',
+          content: 'Tinashe Zvihwati'
+        },
+        {
+          name: 'keywords',
+          content: 'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
+        },
+        {
+          name: 'google-site-verification',
+          content: 'Nvtxn485Uph-S7HHc_RiwvMb6lUkM-43KLCV05xUNZo'
+        },
+        {
+          property: 'og:site_name',
+          content: 'iamtinashe.io'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          property: 'og:title',
+          content: 'Tinashe\'s Website'
+        },
+        {
+          property: 'og:description',
+          content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.iamtinashe.io'
+        }
+      ]
+    }
+  }
 }
 </script>
 

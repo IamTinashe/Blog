@@ -272,50 +272,6 @@ export default {
     getImgUrl(pic) {
       return require('../assets/blogs/' + pic)
     }
-  },
-  head() {
-    return {
-      title: 'Tinashe Zvihwati',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'I am a Web Developer, beatmaker and photographer'
-        },
-        {
-          name: 'author',
-          content: 'Tinashe Zvihwati'
-        },
-        {
-          name: 'keywords',
-          content: 'Web Development, Nodejs, Vuejs, Mongodb, NGINX'
-        },
-        {
-          name: 'google-site-verification',
-          content: 'Nvtxn485Uph-S7HHc_RiwvMb6lUkM-43KLCV05xUNZo'
-        },
-        {
-          property: 'og:site_name',
-          content: 'Tinashe Zvihwati'
-        },
-        {
-          property: 'og:type',
-          content: 'website'
-        },
-        {
-          property: 'og:title',
-          content: 'Tinashe Zvihwati'
-        },
-        {
-          property: 'og:description',
-          content: 'I am a Web Developer, beatmaker and photographer'
-        },
-        {
-          property: 'og:url',
-          content: 'https://www.iamtinashe.io'
-        }
-      ]
-    }
   }
 }
 </script>
