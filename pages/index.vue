@@ -321,7 +321,7 @@ export default {
 </script>
 
 <style>
-@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .image-circular {
   border-radius: 300px 300px 300px 300px;
