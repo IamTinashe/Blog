@@ -124,10 +124,6 @@ export default {
 </script>
 
 <style>
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css');
-
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
