@@ -219,11 +219,9 @@
 
 <script>
 import PostService from '@/components/PostService'
-import Skillset from '@/components/skillsetchart'
 
 export default {
   name: 'PostComponent',
-  components: { Skillset: Skillset },
   data() {
     return {
       posts: [],
