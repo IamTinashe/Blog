@@ -160,6 +160,14 @@ export default {
         {
           property: 'og:url',
           content: 'https://www.iamtinashe.io'
+        },
+        {
+          property: 'og:locale',
+          content: 'en_GB'
+        },
+        {
+          property: 'twitter:card',
+          content: 'summary_large_image'
         }
       ]
     }

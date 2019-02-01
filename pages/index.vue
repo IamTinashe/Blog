@@ -35,93 +35,63 @@
         <p class="lead">Have fun browsing through, and let me know if you find anything interesting!</p>
       </div>
       <div class="col-md-6 prof-container">
-        <h2 class="subtitle">Profile</h2>
-        <hr>
-        <div class="row prof-blok">
-          <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-seven">Current</p>
+        <div
+          class="loc-event"
+          style="margin-bottom: 20px; -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); border-radius: 2px 2px 2px 2px;">
+          <div class="row nopadding" style="text-align: center;">
+            <div class="col-md-3" style="border-right: 1px solid #eeeeee">
+              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Today</p>
+              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: orange;">Work</p>
+            </div>
+            <div class="col-md-6">
+              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Izmir, Turkey</p>
+              <p style="font-weight: 300; font-size: 14px; color: orange;">
+                <i class="fa fa-map-marker" aria-hidden="true"/>
+                İzmir Teknoloji Geliştirme Bölgesi
+              </p>
+            </div>
+            <div class="col-md-3" style="background: orange; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
+              <p style="font-size: 42px; margin-bottom: 0px; color: #ffffff;"> {{ new Date().getDate() }} </p>
+              <p style="font-size: 16px; margin-top: 0px; color: #ffffff;"> {{monthConv()}} </p>
+            </div>
           </div>
-          <div class="md-col-6" style="width: 70%;">
-            <p class="fonts-six">Support Engineer</p>
-            <p class="fonts-six">Comstice Inc.</p>
-            <p class="fonts-six">Izmir, Turkey</p>
-            <p class="fonts-six">March 2018 - Present</p>
+          <div class="row nopadding" style="text-align: center;">
+            <div class="col-md-12 nopadding" style="width: 100%; height: 200px;">
+              <GmapMap :center="{lat: 38.3141088, lng: 26.6340546}" :zoom="16" map-type-id="terrain" style="width: 100%; height: 100%">
+                <GmapMarker
+                  :key="index"
+                  v-for="(m, index) in markers"
+                  :position="m.position"
+                  :clickable="true"
+                  :draggable="true"
+                  @click="center=m.position"
+                />
+              </GmapMap>
+            </div>
           </div>
         </div>
-        <hr>
-        <div class="row prof-blok">
-          <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-seven">Education</p>
-          </div>
-          <div class="md-col-6" style="width: 70%;">
-            <p class="fonts-six">Bsc. in Computer Engineering</p>
-            <p class="fonts-six">Izmir Institute of Technology</p>
-            <p class="fonts-six">August 2018</p>
-          </div>
-        </div>
-        <hr>
-        <div class="row prof-blok">
-          <div class="md-col-5" style="width: 20%; margin-left: 15px;">
-            <p class="fonts-seven">Bio</p>
-          </div>
-          <div class="md-col-6" style="width: 70%;">
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Full Name:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">Tinashe Zvihwati</p>
-              </div>
+        <div
+          class="loc-event"
+          style="margin-bottom: 20px; -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); border-radius: 2px 2px 2px 2px;">
+          <div class="row nopadding" style="text-align: center;">
+            <div class="col-md-3" style="border-right: 1px solid #eeeeee">
+              <p style=" float: left; font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">{{dateDifference(new Date("1/16/2019"), new Date())}}</p>
+              <p style="font-weight: 300; font-size: 12px; color: orange; padding-top: 20px;">
+                <i class="fa fa-clock-o" aria-hidden="true"/>
+                Days Ago
+              </p>
+              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: orange;">Travel</p>
             </div>
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Profession:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">Computer Engineer</p>
-              </div>
+            <div class="col-md-6">
+              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Doha, Qatar</p>
+              <p style="font-weight: 300; font-size: 14px; color: orange;">
+                <i class="fa fa-map-marker" aria-hidden="true"/>
+                Hamad International Aiport
+              </p>
             </div>
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Nationality:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">Zimbabwean</p>
-              </div>
-            </div>
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Current:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">Izmir, Turkey</p>
-              </div>
-            </div>
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Languages:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">English, Shona, Turkish</p>
-              </div>
-            </div>
-            <div class="row" style="margin-left: 0px;">
-              <div style="width: 30%;">
-                <p class="fonts-six">Travelled:</p>
-              </div>
-              <div style="width: 70%;">
-                <p class="fonts-six">
-                  South Africa,
-                  United Arab Emirates,
-                  Turkey,
-                  Namibia,
-                  Qatar,
-                  Egypt,
-                  Zambia,
-                  Botswana,
-                  Ethiopia
-                </p>
-              </div>
+            <div class="col-md-3" style="background: orange; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
+              <p style="font-size: 42px; margin-bottom: 0px; color: #ffffff;"> 16 </p>
+              <p style="font-size: 16px; margin-top: 0px; color: #ffffff;"> January </p>
             </div>
           </div>
         </div>
@@ -258,7 +228,10 @@ export default {
     return {
       posts: [],
       error: '',
-      text: ''
+      text: '',
+      markers: [
+        {position: {lat: 38.3141088, lng: 26.6340546}}
+      ]
     }
   },
   async created() {
@@ -271,6 +244,29 @@ export default {
   methods: {
     getImgUrl(pic) {
       return require('../assets/blogs/' + pic)
+    },
+    monthConv() {
+      var month = new Array();
+      month[0] = "January";
+      month[1] = "February";
+      month[2] = "March";
+      month[3] = "April";
+      month[4] = "May";
+      month[5] = "June";
+      month[6] = "July";
+      month[7] = "August";
+      month[8] = "September";
+      month[9] = "October";
+      month[10] = "November";
+      month[11] = "December";
+
+      var d = new Date();
+      var n = month[d.getMonth()];
+      return n.toUpperCase();
+    },
+    dateDifference(date1, date2) {
+      const difference = date2 - date1;
+      return ((difference/3600000)/24).toFixed(0);
     }
   }
 }
