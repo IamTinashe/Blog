@@ -10,7 +10,7 @@
         <h2 class="subtitle" style="color: #ffffff;">Welcome to my portfolio</h2>
       </div>
       <div class="profile-image position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 80px;">
-        <img class="image-circular" src="@/assets/tinashe.png">
+        <img class="image-circular" src="@/assets/tinashe.png" alt="Tinashe Zvihwati">
       </div>
     </div>
 
