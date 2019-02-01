@@ -1,6 +1,7 @@
 const express = require('express')
 const mongodb = require('mongodb')
 const Slug = require('slug')
+const fs = require('fs');
 
 const router = express.Router()
 
@@ -23,9 +24,19 @@ router.get('/', async (req, res) => {
 //Add Post
 router.post('/', async (req, res) => {
   const posts = await loadPostsCollection()
+  var title = req.body.title
+  var slug = Slug(title, {lower: true})
+  var filePath = './pages/blog/blog_pages/' + slug + '.vue'
+  try {
+    fs.closeSync(fs.openSync(filePath, 'w'))
+  }catch(err) {
+    console.log(err)
+  }
+  
+
   await posts.insertOne({
-    title: req.body.title,
-    slug: slug(req.body.title).toLowerCase(),
+    title: title,
+    slug: slug,
     author: req.body.author,
     category: req.body.category,
     imagename: req.body.imagename,
