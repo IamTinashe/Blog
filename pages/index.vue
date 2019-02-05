@@ -9,8 +9,26 @@
       <div class="position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; ">
         <h2 class="subtitle" style="color: #ffffff;">Welcome to my portfolio</h2>
       </div>
-      <div class="profile-image position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 80px;">
+      <div class="profile-image position" style=" padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 40px;">
         <img class="image-circular" src="@/assets/tinashe.png" alt="Tinashe Zvihwati">
+      </div>
+      <div class="row position" style="padding-bottom: 80px;">
+        <div class="col-md-6">
+          <router-link
+            :to="'/profile'"
+            class="button1"
+            title="Résumé">
+            Résumé
+          </router-link>
+        </div>
+        <div class="col-md-6">
+          <router-link
+            :to="'/connect'"
+            class="button1"
+            title="Contact">
+            Contact
+          </router-link>
+        </div>
       </div>
     </div>
 
@@ -278,6 +296,27 @@ export default {
 .profile-image {
   width: 100%;
 }
+
+a.button1{
+  float: left;
+  padding: 0.35em 2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 15em;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+a.button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  font-weight: 400;
+}
+
 .error {
   color: red;
 }
