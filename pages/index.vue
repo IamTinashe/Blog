@@ -29,8 +29,7 @@
         <p class="lead">
           You probably guessed right already, Yes, I am a developer.  I have been learning
           JavaScript Frameworks lately so I decided to make this website as my first project in
-          VueJS. If you are interested in how I made it,
-          <router-link :to="'/how-i-developed-my-website'">Click Here</router-link>
+          VueJS.
         </p>
         <p class="lead">Have fun browsing through, and let me know if you find anything interesting!</p>
       </div>
