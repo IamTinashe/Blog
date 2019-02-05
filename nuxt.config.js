@@ -54,7 +54,8 @@ module.exports = {
    */
   plugins: [
     '~/plugins/github-activity',
-     {src: "~/plugins/vue-google-maps.js"}
+     {src: "~/plugins/vue-google-maps.js"},
+     { src: '~/plugins/vue-gallery.js', ssr: false }
   ],
 
   /*
