@@ -333,12 +333,4 @@ a.button1:hover{
   display: block;
 }
 
-.prof-container {
-  text-align: left;
-}
-
-.prof-blok {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 </style>
