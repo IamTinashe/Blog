@@ -107,7 +107,11 @@
         </div>
         <div class="row fonts-four position">
           <p>
-            Developed by Tinashe Zvihwati
+            Developed by
+            <router-link
+              :to="'/'" title="Home">
+              Tinashe Zvihwati
+            </router-link>
             <br>Copyright 2018
           </p>
         </div>

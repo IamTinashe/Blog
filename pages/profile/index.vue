@@ -8,7 +8,7 @@
         class="row position"
         style="background-image: url('/background4.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; position: fixed; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;">
 	  </div>
-			<div class="position div-spacing row nopadding" style="width: 80%;">
+			<div class="row nopadding" style="width: 80%;">
 				<div class="col-md-4">
 					<div style="padding: 0px 0px 0px 0px; border-radius: 2px 2px 2px 2px;">
 						<div class="profile-image position" style="padding: 0px 0px 0px 0px; margin-top: 10px; margin-bottom: -50px;">
@@ -34,30 +34,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-8 prof-container" style="background: #ffffff; margin-top: -110px; padding: 20px 0 20px 0; border-radius: 3px 3px 3px 3px;">
-					<div class="row prof-blok">
-						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
-							<p class="fonts-seven">Current</p>
-						</div>
-						<div class="md-col-6" style="width: 70%;">
-							<p class="fonts-six">Support Engineer</p>
-							<p class="fonts-six">Comstice Inc.</p>
-							<p class="fonts-six">Izmir, Turkey</p>
-							<p class="fonts-six">March 2018 - Present</p>
-						</div>
-					</div>
-					<hr>
-					<div class="row prof-blok">
-						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
-							<p class="fonts-seven">Education</p>
-						</div>
-						<div class="md-col-6" style="width: 70%;">
-							<p class="fonts-six">Bsc. in Computer Engineering</p>
-							<p class="fonts-six">Izmir Institute of Technology</p>
-							<p class="fonts-six">August 2018</p>
-						</div>
-					</div>
-					<hr>
+				<div class="col-md-8 prof-container" style="background: #ffffff; margin-top: 80px; margin-bottom: 50px; padding: 20px 0 20px 0; border-radius: 3px 3px 3px 3px;">
 					<div class="row prof-blok">
 						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
 							<p class="fonts-seven">Bio</p>
@@ -123,8 +100,76 @@
 							</div>
 						</div>
 					</div>
+					<hr>
+					<div class="row prof-blok">
+						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
+							<p class="fonts-seven">Work Experience</p>
+						</div>
+						<div class="md-col-6" style="width: 70%;">
+							<p class="fonts-six"><strong>Support Engineer</strong></p>
+							<a href="https://www.comstice.com/" target="_blank" title="Comstice Inc." >
+								<p class="fonts-six externalLink">Comstice Inc.</p>
+							</a>
+							<p class="fonts-six">Izmir, Turkey</p>
+							<p class="fonts-six">March 2018 - Present</p>
+							<br>
+							<p class="fonts-six"><strong>Internship</strong></p>
+							<a href="http://www.wua.ac.zw/" target="_blank" title="Women's University in Africa" >
+								<p class="fonts-six externalLink">Women's University in Africa</p>
+							</a>
+							<p class="fonts-six">Harare, Zimbabwe</p>
+							<p class="fonts-six">July 2017 - October 2017</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row prof-blok">
+						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
+							<p class="fonts-seven">Skills</p>
+						</div>
+						<div class="md-col-6" style="width: 70%;">
+							<p class="fonts-six">JavaScript: Nodejs, Vuejs</p>
+							<p class="fonts-six">Java</p>
+							<p class="fonts-six">Linux</p>
+							<p class="fonts-six">HTML, CSS, Bootstrap</p>
+							<p class="fonts-six">Microsoft Office</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row prof-blok">
+						<div class="md-col-5" style="width: 20%; margin-left: 15px;">
+							<p class="fonts-seven">Education</p>
+						</div>
+						<div class="md-col-6" style="width: 70%;">
+							<p class="fonts-six"><strong>Bsc. in Computer Engineering</strong></p>
+							<a href="http://www.iyte.edu.tr/" target="_blank" title="Izmir Institute of Technology" >
+								<p class="fonts-six externalLink">Izmir Institute of Technology</p>
+							</a>
+							<p class="fonts-six">September 2014 - August 2018</p>
+							<br>
+
+							<p class="fonts-six"><strong>Turkish as a Foreign Langauge</strong></p>
+							<a href="http://dedam.deu.edu.tr/en/" target="_blank" title="Dokuz Eylul University" >
+								<p class="fonts-six externalLink">Dokuz Eylul University</p>
+							</a>
+							<p class="fonts-six">October 2013 - August 2014</p>
+							<br>
+
+							<p class="fonts-six"><strong>Advanced Level (High School)</strong></p>
+							<a href="http://www.gatewayhigh.co.zw/" target="_blank" title="Gateway High School" >
+								<p class="fonts-six externalLink">Gateway High School</p>
+							</a>
+							<p class="fonts-six">March 2011 - December 2012</p>
+						</div>
+					</div>
 				</div>
 			</div> 
     </div>
 	</div>
 </template>
+
+<style>
+.externalLink:hover{
+	color: #000000;
+	font-weight: 350;
+}
+</style>
