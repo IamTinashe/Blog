@@ -36,6 +36,7 @@
               <a
                 href="https://wa.me/905347745196"
                 target="_blank"
+                rel="noopener"
                 title="WhatsApp">
                 <i class="fa fa-whatsapp fa-2x"/>
               </a>
@@ -43,6 +44,7 @@
               <a
                 href="https://www.facebook.com/TinashePride"
                 target="_blank"
+                rel="noopener"
                 title="Facebook">
                 <i class="fa fa-facebook fa-2x"/>
               </a>
@@ -50,6 +52,7 @@
               <a
                 href="https://twitter.com/IamTinashe__"
                 target="_blank"
+                rel="noopener"
                 title="Twitter">
                 <i class="fa fa-twitter fa-2x"/>
               </a>
@@ -57,6 +60,7 @@
               <a
                 href="https://www.linkedin.com/in/tinashepride"
                 target="_blank"
+                rel="noopener"
                 title="LinkedIn">
                 <i class="fa fa-linkedin fa-2x"/>
               </a>
@@ -64,6 +68,7 @@
               <a
                 href="https://github.com/IamTinashe"
                 target="_blank"
+                rel="noopener"
                 title="Github">
                 <i class="fa fa-github fa-2x"/>
               </a>
@@ -71,6 +76,7 @@
               <a
                 href="https://www.instagram.com/iamtinashe_"
                 target="_blank"
+                rel="noopener"
                 title="Instagram">
                 <i class="fa fa-instagram fa-2x"/>
               </a>
@@ -78,6 +84,7 @@
               <a
                 href="https://soundcloud.com/tinashe-zvihwati"
                 target="_blank"
+                rel="noopener"
                 title="Soundcloud">
                 <i class="fa fa-soundcloud fa-2x"/>
               </a>
@@ -85,6 +92,7 @@
               <a
                 href="https://www.youtube.com/user/tinashepride"
                 target="_blank"
+                rel="noopener"
                 title="Youtube">
                 <i class="fa fa-youtube fa-2x"/>
               </a>
@@ -92,6 +100,7 @@
               <a
                 href="https://www.snapchat.com/add/tinashepride"
                 target="_blank"
+                rel="noopener"
                 title="Snapchat">
                 <i class="fa fa-snapchat-ghost fa-2x"/>
               </a>
@@ -99,6 +108,7 @@
               <a
                 href="https://steamcommunity.com/id/iamtinashe"
                 target="_blank"
+                rel="noopener"
                 title="Steam">
                 <i class="fa fa-steam fa-2x"/>
               </a>
@@ -126,7 +136,10 @@ export default {
   components: { 't-header': Header },
   head() {
     return {
-      title: 'Tinashe\'s Website',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      title: 'Tinashe Zvihwati\'s Website',
       meta: [
         {
           hid: 'description',
@@ -136,6 +149,10 @@ export default {
         {
           name: 'author',
           content: 'Tinashe Zvihwati'
+        },
+        {
+          name: 'theme-color',
+          content: '#317EFB'
         },
         {
           name: 'keywords',

@@ -25,6 +25,7 @@
 								:item="post"
 								:index="index"
 								:key="post._id"
+								:title="post.title"
 								class="post col-md-4"
 							>
 								<router-link :to="'/blog/' + post.slug">
@@ -33,6 +34,7 @@
 											:src="getImgUrl(post.imagename)"
 											class="card-img-top post-image"
 											data-holder-rendered="true"
+											alt="Blog Image"
 										>
 										<div class="card-body">
 											<h3 class="fonts-two">{{ post.title }}</h3>

@@ -63,7 +63,7 @@
               </div>
               <div class="md-col-6" style="width: 70%;">
                 <p class="fonts-six">tinashetp@gmail.com</p>
-                <p class="fonts-six">me@iamtinashe.io</p>
+                <p class="fonts-six">hello@iamtinashe.io</p>
               </div>
             </div>
             <hr style="width: 80%;">

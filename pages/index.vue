@@ -126,6 +126,7 @@
           :item="post"
           :index="index"
           :key="post._id"
+          :title="post.title"
           class="post col-md-4"
         >
           <router-link :to="'/blog/' + post.slug">
@@ -134,6 +135,7 @@
                 :src="getImgUrl(post.imagename)"
                 class="card-img-top post-image"
                 data-holder-rendered="true"
+                alt="Blog Image"
               >
               <div class="card-body">
                 <h3 class="fonts-two">{{ post.title }}</h3>
@@ -180,7 +182,8 @@
             height="600"
             frameborder="0"
             allowtransparency="true"
-            allow="encrypted-media" />
+            allow="encrypted-media"
+            title="Spotify" />
         </div>
       </div>
       <div class="widget col-md-4" style="float: left;">
@@ -191,6 +194,7 @@
             scrolling="no"
             frameborder="no"
             allow="autoplay"
+            title="Soundcloud"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/514850361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
         </div>
       </div>

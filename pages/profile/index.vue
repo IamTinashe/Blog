@@ -19,11 +19,11 @@
 							<p class="lead" style="font-weight: 350; font-size: 14px;">
 								Hello there, I'm Tinashe. Born in Marondera and grew up in Harare, Zimbabwe; I'm currently
 								based in Izmir, Turkey. I did my A Level at
-								<a href="http://www.gatewayhigh.co.zw/" target="_blank" title="Gateway High School" >Gateway High School</a>
+								<a href="http://www.gatewayhigh.co.zw/" target="_blank" rel="noopener" title="Gateway High School" >Gateway High School</a>
 								and furthered my studies at
-								<a href="http://www.iyte.edu.tr/" target="_blank" title="Izmir Institute of Technology" >Izmir Institute of Technology</a>
+								<a href="http://www.iyte.edu.tr/" target="_blank" rel="noopener" title="Izmir Institute of Technology" >Izmir Institute of Technology</a>
 								where I graduated with a BSc. in Computer Engineering. I currently work as a Support Engineer at
-								<a href="https://www.comstice.com/" target="_blank" title="Comstice Inc." >Comstice Inc.</a>
+								<a href="https://www.comstice.com/" target="_blank" rel="noopener" title="Comstice Inc." >Comstice Inc.</a>
 							</p>
 							<p class="lead" style="font-weight: 350; font-size: 14px;">
 								I am also a Photographer, inspired by nature and its beauty. I travel and have been to
@@ -107,14 +107,14 @@
 						</div>
 						<div class="md-col-6" style="width: 70%;">
 							<p class="fonts-six"><strong>Support Engineer</strong></p>
-							<a href="https://www.comstice.com/" target="_blank" title="Comstice Inc." >
+							<a href="https://www.comstice.com/" target="_blank" rel="noopener" title="Comstice Inc." >
 								<p class="fonts-six externalLink">Comstice Inc.</p>
 							</a>
 							<p class="fonts-six">Izmir, Turkey</p>
 							<p class="fonts-six">March 2018 - Present</p>
 							<br>
 							<p class="fonts-six"><strong>Internship</strong></p>
-							<a href="http://www.wua.ac.zw/" target="_blank" title="Women's University in Africa" >
+							<a href="http://www.wua.ac.zw/" target="_blank" rel="noopener" title="Women's University in Africa" >
 								<p class="fonts-six externalLink">Women's University in Africa</p>
 							</a>
 							<p class="fonts-six">Harare, Zimbabwe</p>
@@ -141,21 +141,21 @@
 						</div>
 						<div class="md-col-6" style="width: 70%;">
 							<p class="fonts-six"><strong>Bsc. in Computer Engineering</strong></p>
-							<a href="http://www.iyte.edu.tr/" target="_blank" title="Izmir Institute of Technology" >
+							<a href="http://www.iyte.edu.tr/" target="_blank" rel="noopener" title="Izmir Institute of Technology" >
 								<p class="fonts-six externalLink">Izmir Institute of Technology</p>
 							</a>
 							<p class="fonts-six">September 2014 - August 2018</p>
 							<br>
 
 							<p class="fonts-six"><strong>Turkish as a Foreign Langauge</strong></p>
-							<a href="http://dedam.deu.edu.tr/en/" target="_blank" title="Dokuz Eylul University" >
+							<a href="http://dedam.deu.edu.tr/en/" target="_blank" rel="noopener" title="Dokuz Eylul University" >
 								<p class="fonts-six externalLink">Dokuz Eylul University</p>
 							</a>
 							<p class="fonts-six">October 2013 - August 2014</p>
 							<br>
 
 							<p class="fonts-six"><strong>Advanced Level (High School)</strong></p>
-							<a href="http://www.gatewayhigh.co.zw/" target="_blank" title="Gateway High School" >
+							<a href="http://www.gatewayhigh.co.zw/" target="_blank" rel="noopener" title="Gateway High School" >
 								<p class="fonts-six externalLink">Gateway High School</p>
 							</a>
 							<p class="fonts-six">March 2011 - December 2012</p>
