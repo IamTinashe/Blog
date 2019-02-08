@@ -140,11 +140,12 @@ export default {
         lang: 'en',
       },
       title: 'Tinashe Zvihwati\'s Website',
-      metaInfo: {
-        links: [
-          {rel: 'canonical', href: 'https://www.iamtinashe.io'}
-        ]
-      },
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io'
+        }
+      ],
       meta: [
         {
           hid: 'description',
