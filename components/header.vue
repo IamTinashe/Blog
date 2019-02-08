@@ -33,10 +33,10 @@
           Videos
         </router-link>
         <router-link
-          :to="'/music'"
+          :to="'/social'"
           class="navbar-brand d-flex align-items-center"
-          style="font-size: 15px;" title="Music">
-          Music
+          style="font-size: 15px;" title="Social">
+          Social
         </router-link>
         <router-link
           :to="'/connect'"

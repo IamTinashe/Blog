@@ -6,7 +6,7 @@
     >
       <div
         class="row position"
-        style="background-image: url('/background4.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; position: fixed; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;">
+        style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;">
 	  </div>
 			<div class="row nopadding" style="width: 80%;">
 				<div class="col-md-4">

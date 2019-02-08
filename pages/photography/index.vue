@@ -6,7 +6,7 @@
     >
       <div
         class="row position"
-        style="background-image: url('/background2.jpeg'); background-position: center; background-size: cover; background-repeat: no-repeat; position: fixed; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;"
+        style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;"
       ></div>
       <div method="post" style="width: 80%; padding: 100px 0px 50px 0px; margin-top: 100px;">
         <div class="row">

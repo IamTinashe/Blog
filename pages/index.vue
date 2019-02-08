@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row position" style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; margin-top: 100px;" >
-      <div class="cover-img" style="background-image: url('/background.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; position: fixed; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 80%; z-index: -1; margin-top: 0px;">
+      <div class="cover-img" style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 80%; z-index: -1; margin-top: 0px;">
       </div>
       <div class="position" style=" margin-top: 50px; padding-bottom: 0px; margin-bottom: 0px;">
         <h1 class="title" style="color: #ffffff;">Hi there, I'm Tinashe</h1>
@@ -57,17 +57,17 @@
           style="margin-bottom: 20px; -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); border-radius: 2px 2px 2px 2px;">
           <div class="row nopadding" style="text-align: center;">
             <div class="col-md-3" style="border-right: 1px solid #eeeeee">
-              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Today</p>
-              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: orange;">Work</p>
+              <p style="font-weight: 550; font-size: 22px; color: #9400D3; padding-top: 10px;">Today</p>
+              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: #9400D3;">Work</p>
             </div>
             <div class="col-md-6">
-              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Izmir, Turkey</p>
-              <p style="font-weight: 300; font-size: 14px; color: orange;">
+              <p style="font-weight: 550; font-size: 22px; color: #9400D3; padding-top: 10px;">Izmir, Turkey</p>
+              <p style="font-weight: 300; font-size: 14px; color: #9400D3;">
                 <i class="fa fa-map-marker" aria-hidden="true"/>
                 İzmir Teknoloji Geliştirme Bölgesi
               </p>
             </div>
-            <div class="col-md-3" style="background: orange; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
+            <div class="col-md-3" style="background: #9400D3; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
               <p style="font-size: 42px; margin-bottom: 0px; color: #ffffff;"> {{ new Date().getDate() }} </p>
               <p style="font-size: 16px; margin-top: 0px; color: #ffffff;"> {{monthConv()}} </p>
             </div>
@@ -92,21 +92,21 @@
           style="margin-bottom: 20px; -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.50); border-radius: 2px 2px 2px 2px;">
           <div class="row nopadding" style="text-align: center;">
             <div class="col-md-3" style="border-right: 1px solid #eeeeee">
-              <p style=" float: left; font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">{{dateDifference(new Date("1/16/2019"), new Date())}}</p>
-              <p style="font-weight: 300; font-size: 12px; color: orange; padding-top: 20px;">
+              <p style=" float: left; font-weight: 550; font-size: 22px; color: #9400D3; padding-top: 10px;">{{dateDifference(new Date("1/16/2019"), new Date())}}</p>
+              <p style="font-weight: 300; font-size: 12px; color: #9400D3; padding-top: 20px;">
                 <i class="fa fa-clock-o" aria-hidden="true"/>
                 Days Ago
               </p>
-              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: orange;">Travel</p>
+              <p style="font-weight: 300; font-size: 14px; color: #ffffff; border-radius: 10px 10px 10px 10px; background-color: #9400D3;">Travel</p>
             </div>
             <div class="col-md-6">
-              <p style="font-weight: 550; font-size: 22px; color: orange; padding-top: 10px;">Doha, Qatar</p>
-              <p style="font-weight: 300; font-size: 14px; color: orange;">
+              <p style="font-weight: 550; font-size: 22px; color: #9400D3; padding-top: 10px;">Doha, Qatar</p>
+              <p style="font-weight: 300; font-size: 14px; color: #9400D3;">
                 <i class="fa fa-map-marker" aria-hidden="true"/>
                 Hamad International Aiport
               </p>
             </div>
-            <div class="col-md-3" style="background: orange; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
+            <div class="col-md-3" style="background: #9400D3; padding-top: 0px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; height: 100%;">
               <p style="font-size: 42px; margin-bottom: 0px; color: #ffffff;"> 16 </p>
               <p style="font-size: 16px; margin-top: 0px; color: #ffffff;"> January </p>
             </div>
@@ -168,73 +168,6 @@
     </div>
 
 
-    <div class="album py-5 div-spacing" style="background: #ffffff; position: relative; margin-bottom: 0px; height: 700px;">
-      <div class="widget col-md-4 position" style="float: left;">
-        <div class="card mb-4 shadow-sm">
-          <github-feed login="IamTinashe"></github-feed>
-        </div>
-      </div>
-      <div class="widget col-md-4" style="float: left;">
-        <div class="card mb-4 shadow-sm">
-          <iframe
-            src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx"
-            width="100%"
-            height="600"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-            title="Spotify" />
-        </div>
-      </div>
-      <div class="widget col-md-4" style="float: left;">
-        <div class="card mb-4 shadow-sm">
-          <iframe
-            width="100%"
-            height="600"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            title="Soundcloud"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/514850361&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row position div-spacing" style=" background-image: url('/background3.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; position: relative; padding-top: 50px; float: none; ">
-      <form method="post" style="width: 80%; padding: 80px 0px 80px 0px;">
-        <div class="row">
-          <div class="col-md-12" style="text-align: left;">
-            <h3 class="subtitle" style="color: #ffffff;" >Send me a message</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" value="" />
-            </div>
-            <div class="form-group">
-              <input type="text" name="email" class="form-control" placeholder="Email" value="" />
-            </div>
-            <div class="form-group">
-              <input type="text" name="phone" class="form-control" placeholder="Phone Number" value="" />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <textarea name="message" class="form-control" placeholder="Your Message" style="width: 100%; height: 150px;"></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="submit" name="btnSubmit" class="button" value="Send Message" />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
   </div>
 </template>
 
