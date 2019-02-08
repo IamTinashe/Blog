@@ -140,6 +140,11 @@ export default {
         lang: 'en',
       },
       title: 'Tinashe Zvihwati\'s Website',
+      metaInfo: {
+        links: [
+          {rel: 'canonical', href: 'https://www.iamtinashe.io'}
+        ]
+      },
       meta: [
         {
           hid: 'description',
@@ -187,8 +192,24 @@ export default {
           content: 'en_GB'
         },
         {
+          property: 'og:image',
+          content: '/iamtinashe.png'
+        },
+        {
           property: 'twitter:card',
           content: 'summary_large_image'
+        },
+        {
+          itemprop: 'name',
+          content: 'Tinashe Zvihwati\'s Website'
+        },
+        {
+          itemprop: 'description',
+          content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+        },
+        {
+          itemprop: 'image',
+          content: '/iamtinashe.png'
         }
       ]
     }

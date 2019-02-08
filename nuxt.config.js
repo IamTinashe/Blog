@@ -69,7 +69,9 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    // https://www.npmjs.com/package/@nuxtjs/sitemap
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Axios module configuration
@@ -88,4 +90,59 @@ module.exports = {
     transpile: [/^vue2-google-maps($|\/)/],
     vendor:["vue2-google-maps"]
   },
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://www.iamtinashe.io',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: false, // Enable me when using nuxt generate
+    exclude: [
+      '/admin/**'
+    ],
+    routes: [
+      {
+        url: '/',
+        changefreq: 'daily',
+        priority: 1,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      },
+      {
+        url: '/profile',
+        changefreq: 'daily',
+        priority: 0.9,
+        lastmodISO: '2019-01-29T13:30:00.000Z'
+      },
+      {
+        url: '/blog',
+        changefreq: 'daily',
+        priority: 0.8,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      },
+      {
+        url: '/photography',
+        changefreq: 'daily',
+        priority: 0.6,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      },
+      {
+        url: '/videos',
+        changefreq: 'daily',
+        priority: 0.5,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      },
+      {
+        url: '/social',
+        changefreq: 'daily',
+        priority: 0.6,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      },
+      {
+        url: '/connect',
+        changefreq: 'daily',
+        priority: 0.7,
+        lastmodISO: '2019-02-09T13:30:00.000Z'
+      }
+    ]
+  }
 }
