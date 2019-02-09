@@ -58,8 +58,10 @@ module.exports = {
     '~/plugins/github-activity',
      {src: "~/plugins/vue-google-maps.js"},
      { src: '~/plugins/vue-gallery.js', ssr: false },
-     { src: '~plugins/ga.js', ssr: false },
-     { src: '~/plugins/vue-google-adsense', ssr: false }
+     { src: '~plugins/ga.js'},
+     { src: '~/plugins/vue-google-adsense'},
+     { src: '~/plugins/vue-filter-date-format.js'},
+     { src: '~/plugins/vuedisqus.js'}
   ],
 
   /*

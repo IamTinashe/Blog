@@ -27,12 +27,6 @@
           Photography
         </router-link>
         <router-link
-          :to="'/videos'"
-          class="navbar-brand d-flex align-items-center"
-          style="font-size: 15px;" title="Videos">
-          Videos
-        </router-link>
-        <router-link
           :to="'/social'"
           class="navbar-brand d-flex align-items-center"
           style="font-size: 15px;" title="Social">

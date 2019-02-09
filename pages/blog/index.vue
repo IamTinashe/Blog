@@ -7,7 +7,7 @@
 						<Adsense
 							data-ad-client="ca-pub-3817231220206981"
 							data-ad-slot="1234567890">
-					</Adsense>
+						</Adsense>
 					</div>
 				</div>
 				<div class="col-md-8">

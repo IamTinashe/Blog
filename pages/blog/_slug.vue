@@ -1,58 +1,122 @@
 <template>
     <div style="width: 100%;">
-        <div class="row div-spacing position" style="margin-bottom: 10px;">
-            <div class="col-md-12" style="text-align: left;">
-                <h1 class="display-3" style="font-size: 2.3em; margin-left: 30px;">{{ post.title }}</h1>
-            </div>
-        </div>
+        <!-- Page Content https://startbootstrap.com/previews/blog-post/ -->
+      <div class="container" style="margin-top: 100px; margin-bottom: 20px;">
         <div class="row">
-          <div class="col-md-9 nopadding wrapper">
-            <div class="row">
-              <div class="col-md-12">
-                <img
-                :src="getImgPath(post.imagename)"
-                class="image-post"
-                data-holder-rendered="true"/>
-              </div>
-            </div>
-            <div class="mid-sec row nopadding">
-              <div class="blog-content col-md-12 ">
-                <div class="paragraphs">
-                  <p class="lead note" style="font-size: 1.2em;">{{ post.content }}</p>
-                </div>
-                <div class="meta-div col-md-6">
-                  <i class="fa fa-user fa-x"/>
-                  <small>{{ post.author }}</small>
-                </div> 
-                <div class="meta-div col-md-6">
-                  <i class="fa fa-tags fa-x"/>
-                  <small>{{ post.category }}</small>
-                </div>
-              </div>
-            </div>
-            <div class="row position div-spacing">
-              <div class="col-md-12 comments">
-                <div id="disqus_thread">
-                  
-                </div>
-              </div>
+          <div class="col-lg-8" style="background-color: #ffffff; margin-top: 25px; border-radius: 2px;">
+            <h1 class="mt-4">{{post.title}}</h1>
+            <p class="lead">
+              by
+              <router-link
+                :to="'/profile'"
+                title="Tinashe Zvihwati">
+                Tinashe Zvihwati
+              </router-link>
+            </p>
+            <hr>
+            <p>Posted on {{ post.createdAt }}</p>
+            <hr>
+
+            <img
+              :src="getImgPath(post.imagename)"
+              class="img-fluid rounded"
+              data-holder-rendered="true"
+              :alt="post.title"
+            />
+
+            <hr>
+
+            <!-- Post Content -->
+            <p class="lead">{{ post.description }}</p>
+            <p>{{ post.content }}</p>
+
+            <!-- Comments Form -->
+            <div class="comments">
+              <vue-disqus shortname="iamtinashe-io" :identifier="post.slug" :url="curenturl"></vue-disqus>
             </div>
           </div>
-          <div class="blog-side-bar col-md-3 nopadding">
-            <div class="side-video">
-              <iframe
-                width="100%"
-                :src="getVideoUrl(post.videourl)"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-              </iframe>
+
+          <!-- Sidebar Widgets Column -->
+          <div class="col-md-4">
+            <!-- Search Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
             </div>
-            <div class="row">
-              Some Ad Here
+
+            <!-- Categories Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Categories</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Web Design</a>
+                      </li>
+                      <li>
+                        <a href="#">HTML</a>
+                      </li>
+                      <li>
+                        <a href="#">Freebies</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">JavaScript</a>
+                      </li>
+                      <li>
+                        <a href="#">CSS</a>
+                      </li>
+                      <li>
+                        <a href="#">Tutorials</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Qoute</h5>
+              <div class="card-body">
+                Be the author of your own story
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <div class="card-body">
+                <Adsense
+                  data-ad-client="ca-pub-3817231220206981"
+                  data-ad-slot="1234567890">
+                </Adsense>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Qoute</h5>
+              <div class="card-body">
+                Be the author of your own story
+              </div>
             </div>
           </div>
         </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
     </div>
 </template>
 
@@ -65,19 +129,21 @@ export default {
     return{
       post: {},
       error: '',
-      text: ''
+      text: '',
+      curenturl: ''
     }
   },
   async created(){
     try{
       this.post = await PostService.getPost(this.$route.params.slug);
+      this.curenturl = window.location.pathname;
     }catch(err){
       this.error = err.message;
     }
   },
   methods: {
     getImgPath(pic) {
-      var ImagePath = '/_nuxt/assets/blogs/' + this.post.imagename
+      var ImagePath = '/blogs/' + this.post.imagename
       return ImagePath
    },
    getVideoUrl(video) {
@@ -130,69 +196,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.image-post {
-  width: 95%;
-  border-radius: 2px 2px 2px 2px;
-}
-
-.note {
-  white-space: pre-line;
-  word-wrap: break-word;
-  text-align: justify;
-}
-
-.mid-sec{
-    text-align: left;
-    width: 100%;
-  }
-
-  .blog-content .lead{
-    font-size: 12pt;
-    float: left;
-  }
-
-  .blog-side-bar{
-    float: left;
-  }
-
-  .meta-div{
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .blog-content label{
-    font-size: 8pt;
-    font-weight: bold;
-    width: 10%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .blog-content small{
-    font-size: 8pt;
-    font-weight: lighter;
-    margin-top: 0px;
-    margin-left: 5px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .paragraphs{
-    margin-top: 5%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .side-video{
-    margin-top: 40px;
-  }
-</style>
-

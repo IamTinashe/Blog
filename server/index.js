@@ -1,4 +1,4 @@
-
+//https://github.com/nuxt/nuxt.js/issues/146
 const express = require('express')
 const consola = require('consola')
 const bodyParser = require('body-parser')

@@ -146,6 +146,16 @@ export default {
           href: 'https://www.iamtinashe.io'
         }
       ],
+      script: [
+        {
+          src: "https://platform.twitter.com/widgets.js",
+          type: "text/javascript"
+        },
+        {
+          src: "https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js",
+          type: "text/javascript"
+        }
+      ],
       meta: [
         {
           hid: 'description',
@@ -211,7 +221,7 @@ export default {
         {
           itemprop: 'image',
           content: '/iamtinashe.png'
-        }
+        },
       ]
     }
   }
