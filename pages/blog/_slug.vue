@@ -136,7 +136,7 @@ export default {
   async created(){
     try{
       this.post = await PostService.getPost(this.$route.params.slug);
-      this.currenturl = 'window.location.pathname';
+      this.currenturl = window.location.pathname;
     }catch(err){
       this.error = err.message;
     }
@@ -153,6 +153,12 @@ export default {
   head() {
     return {
       title: this.post.title,
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io/' + this.post.slug
+        }
+      ],
       meta: [
         {
           hid: 'description',
