@@ -1,6 +1,4 @@
-const fs = require('fs');
-const http = require('http');
-const https = require('https');
+
 const express = require('express')
 const consola = require('consola')
 const bodyParser = require('body-parser')
@@ -9,17 +7,6 @@ const { Nuxt, Builder } = require('nuxt')
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
-
-// Certificate
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/lekkahub.com/privkey.pem', 'utf8')
-const certificate = fs.readFileSync('/etc/letsencrypt/live/lekkahub.com/cert.pem', 'utf8')
-const ca = fs.readFileSync('/etc/letsencrypt/live/lekkahub.com/chain.pem', 'utf8')
-
-const credentials = {
-	key: privateKey,
-	cert: certificate,
-	ca: ca
-};
 
 app.set('port', port)
 
@@ -46,13 +33,12 @@ async function start() {
 
   // Give nuxt middleware to express
   app.use(nuxt.render)
-  const httpServer = http.createServer(app)
-  const httpsServer = https.createServer(credentials, app)
+
   // Listen the server
-
-  httpsServer.listen(port, () => {
-    console.log('HTTPS Server running on port 443')
+  app.listen(port, host)
+  consola.ready({
+    message: `Server listening on http://${host}:${port}`,
+    badge: true
   })
-
 }
 start()
