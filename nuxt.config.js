@@ -55,13 +55,13 @@ module.exports = {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '~/plugins/github-activity',
-     {src: "~/plugins/vue-google-maps.js"},
-     { src: '~/plugins/vue-gallery.js', ssr: false },
-     { src: '~plugins/ga.js'},
-     { src: '~/plugins/vue-google-adsense'},
-     { src: '~/plugins/vue-filter-date-format.js'},
-     { src: '~/plugins/vuedisqus.js'}
+    {src: "~/plugins/github-activity", ssr: false},
+    {src: "~/plugins/vue-google-maps.js", ssr: false},
+    { src: '~/plugins/vue-gallery.js', ssr: false },
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~/plugins/vue-google-adsense', ssr: false },
+    { src: '~/plugins/vue-filter-date-format.js', ssr: false},
+    { src: '~/plugins/vuedisqus.js', ssr: false}
   ],
 
   /*
