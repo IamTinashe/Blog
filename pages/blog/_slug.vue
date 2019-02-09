@@ -32,7 +32,7 @@
 
             <!-- Comments Form -->
             <div class="comments">
-              <vue-disqus shortname="iamtinashe-io" :identifier="post.slug" :url="curenturl"></vue-disqus>
+              <vue-disqus shortname="iamtinashe-io" :identifier="post.slug" :url="currenturl"></vue-disqus>
             </div>
           </div>
 
@@ -130,13 +130,13 @@ export default {
       post: {},
       error: '',
       text: '',
-      curenturl: ''
+      currenturl: ''
     }
   },
   async created(){
     try{
       this.post = await PostService.getPost(this.$route.params.slug);
-      this.curenturl = window.location.pathname;
+      this.currenturl = 'https://www.iamtinashe.io/' + post.slug;
     }catch(err){
       this.error = err.message;
     }
