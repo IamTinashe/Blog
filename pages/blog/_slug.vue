@@ -136,7 +136,7 @@ export default {
   async created(){
     try{
       this.post = await PostService.getPost(this.$route.params.slug);
-      this.currenturl = 'https://www.iamtinashe.io/' + post.slug;
+      this.currenturl = 'window.location.pathname';
     }catch(err){
       this.error = err.message;
     }
