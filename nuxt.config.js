@@ -8,8 +8,10 @@ module.exports = {
    */
   head: {
     title: pkg.name,
-    meta: [{
-        charset: 'utf-8'
+    meta: [
+      {
+        charset: 'utf-8',
+        title: 'Tinashe Zvihwati\'s Website',
       },
       {
         name: 'viewport',
@@ -18,13 +20,93 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: pkg.description
-      }
+        content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'Tinashe Zvihwati'
+      },
+      {
+        hid: 'theme-color',
+        name: 'theme-color',
+        content: '#317EFB'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
+      },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'Nvtxn485Uph-S7HHc_RiwvMb6lUkM-43KLCV05xUNZo'
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Tinashe Zvihwati Website'
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Tinashe\'s Website'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.iamtinashe.io'
+      },
+      {
+        hid: 'og:locale',
+        property: 'og:locale',
+        content: 'en_GB'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/iamtinashe.png'
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'name',
+        itemprop: 'name',
+        content: 'Tinashe Zvihwati\'s Website'
+      },
+      {
+        hid: 'description',
+        itemprop: 'description',
+        content: 'Welcome to Tinashe Zvihwati\'s website. All about sharing experiences, opinions and ideas'
+      },
+      {
+        hid: 'image',
+        itemprop: 'image',
+        content: '/iamtinashe.png'
+      },
     ],
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
+      },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: 'https://www.iamtinashe.io'
       },
       {
         rel: 'stylesheet',
@@ -34,7 +116,17 @@ module.exports = {
         rel: 'stylesheet',
         href: "https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css"
       }
-    ]
+    ],
+    script: [
+      {
+        src: "https://platform.twitter.com/widgets.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js",
+        type: "text/javascript"
+      }
+    ],
   },
 
   /*

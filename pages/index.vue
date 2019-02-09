@@ -254,20 +254,4 @@ a.button1:hover{
   font-weight: 400;
 }
 
-.error {
-  color: red;
-}
-
-.card {
-  -webkit-box-shadow: 11px -12px 15px -2px rgba(0, 0, 0, 0.95);
-  -moz-box-shadow: 11px -12px 15px -2px rgba(0, 0, 0, 0.95);
-  box-shadow: 11px -12px 15px -2px rgba(0, 0, 0, 0.95);
-}
-
-.post-image {
-  height: 225px;
-  width: 100%;
-  display: block;
-}
-
 </style>

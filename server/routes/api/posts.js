@@ -26,7 +26,7 @@ router.post('/', async (req, res) => {
   const posts = await loadPostsCollection()
   var title = req.body.title
   var slug = Slug(title, {lower: true})
-  var filePath = './pages/blog/blog_pages/' + slug + '.vue'
+  var filePath = './pages/blog/' + slug + '.vue'
   try {
     fs.closeSync(fs.openSync(filePath, 'w'))
   }catch(err) {
