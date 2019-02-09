@@ -5,13 +5,13 @@
     </div>
 
 
-    <div class="album py-5 div-spacing" style="background: #ffffff; position: relative; margin-bottom: 0px; height: 700px;">
-      <div class="widget col-md-4 position" style="float: left;">
+    <div class="album py-5 div-spacing" style="position: relative; width: 95%; margin: 10px; margin-top: 50px;">
+      <div class="widget col-md-4 position" style="float: left; margin-top: 20px;">
         <div class="card mb-4 shadow-sm">
           <github-feed login="IamTinashe"></github-feed>
         </div>
       </div>
-      <div class="widget col-md-4" style="float: left;">
+      <div class="widget col-md-4" style="float: left; margin-top: 20px;">
         <div class="card mb-4 shadow-sm">
           <iframe
             src="https://open.spotify.com/embed/user/iamtinashe/playlist/0dIqxVdl3eDNUX9rD6Nxfx"
@@ -23,7 +23,7 @@
             title="Spotify" />
         </div>
       </div>
-      <div class="widget col-md-4" style="float: left;">
+      <div class="widget col-md-4" style="float: left; margin-top: 20px;">
         <div class="card mb-4 shadow-sm">
           <iframe
             width="100%"
@@ -36,5 +36,26 @@
         </div>
       </div>
     </div>
+
+
+
+    <div class="row album py-5 div-spacing" style="position: relative; width: 95%; margin: 10px;">
+      <div class="widget col-md-4" style="float: left; margin-top: 20px;">
+        <div class="mb-4">
+          <a class="twitter-timeline" data-height="500" data-chrome="nofooter" data-link-color="#820bbb" data-border-color="#a80000" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="widget col-md-4" style="float: left; margin-top: 20px;">
+        <div class="mb-4">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAmatuer-Traveler-231036197780436&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=259708828017658" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="widget col-md-4" style="float: left; margin-top: 20px;">
+        <div class="mb-4">
+          <iframe src="http://www.youtube.com/embed/?listType=user_uploads&list=tinashepride" width="100%" height="500"></iframe>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
