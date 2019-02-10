@@ -120,7 +120,7 @@
       <div v-if="error" class="error div-spacing">
         <p class="lead">{{ error }}</p>
       </div>
-      <div class="container">
+      <div class="row container" style="width: 95%; margin-left: 20px;">
         <div
           v-for="(post, index) in posts"
           :item="post"
