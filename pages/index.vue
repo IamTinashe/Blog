@@ -195,7 +195,7 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      return require('../assets/blogs/' + pic)
+      return require('../static/blogs/' + pic)
     },
     monthConv() {
       var month = new Array();
