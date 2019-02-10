@@ -29,112 +29,76 @@
             <!-- Post Content -->
             <p class="lead">{{ post.description }}</p>
             <p>
-							July 2017 I went on an adventure to celebrate my 24th birthday. I was up for a
-							thrill that would give me an adrenaline rush. 2 weeks prior to my birthday, I
-							made a booking at <a href="https://thegreenvalleyhotel.reservehotel.net/"
-							target="_blank" rel="noopener" title="Green Valley Hotel">Green Valley Hotel</a>,
-							which was fantastically affordable at that
-							time. The whole trip was for three days in Fethiye. I didn’t have a ride so I
-							hopped on a bus and made my way from Izmir to Fethiye on a 6 hour journey. I was
-							with my homie from Tanzania. Upon arrival we got a taxi to the hotel where we
-							spent the rest of the day resting due to the fatigue from long journey.
-						</p>
+							Among hundreds if not thousands of interesting facts about flying and aeroplanes,
+							I have decided to compile 11 facts that may freak you out. But do not be moved, for
+							there is a calming side to each of the facts.
+            </p>
 						<p>
-							The following day we went out to explore. The beauty, energy and vibe in that
-							town cannot be described in words. Everyone was friendly. There were mostly English
-							speakers, which made the whole trip much easier and more fun. Night life was on
-							point and everything was lit. As a student at that time however Fethiye did appear
-							though to be a rich people’s town as everything seemed pretty expensive (well, for
-							my budget). Anyway let’s get back to the story.
-						</p>
-						<p>
-							I asked for prices and boy; was it expensive to paraglide (well for my budget)!
-							I began having second thoughts about paragliding. We went down to the beach, known
-							locally as Ölüdeniz. The site was so beautiful it can best be described by David
-							Livingstone’s quotes on Victoria Falls:
-						<p>
-							<blockquote class="blockquote">
-								<p class="mb-0">
-									“Scenes so lovely must have been gazed upon by angels in their flight.” 
-								</p>
-								<footer class="blockquote-footer"> -
-									<a href="https://www.bbc.co.uk/history/historic_figures/livingstone_david.shtml" target="_blank" rel="noopener" title="David Livingstone">
-										<cite title="David Livingstone">David Livingstone</cite>
-									</a>
-								</footer>
-							</blockquote>
-						<p>
-							The parachutes in the blue skies, the ever cheerful
-							people on the beach, the blue sea, the blue lagoon, and the yon orange sun. Of course,
-							I had to change my mind. Surely I couldn’t return without doing the one thing that I
-							travelled all the way for.
-						</p>
-						<p>
-							And so it began. I made my reservation to paraglide. After booking I became ambivalent.
-							This was my first experience to do such a risky adrenaline sport. I was excited, but
-							anxiety began tiptoeing. At 15:00 we got into a minibus, to a mountain from which we
-							would jump. Notoriously known as Babadağ (Father of Mountains). As we drove up the
-							mountain (I’m talking about 2km above sea level) the more amplified my emotions became.
-							The excitement but then the anxiety. The adventurer’s whispers became my anthem for the
-							day, “You Only Live Once!”
-						</p>
-						<p>
-							In case you do not know what paragliding is:
-						</p>
-						<blockquote class="blockquote">
-							<p class="mb-0">
-								It is the recreational and competitive adventure sport of flying paragliders: lightweight,
-								free-flying, foot-launched glider aircraft with no rigid primary structure. The pilot sits
-								in a harness suspended below a fabric wing.
-							</p>
-							<footer class="blockquote-footer">Source
-								<a href="https://en.wikipedia.org/wiki/Paragliding" target="_blank" rel="noopener" title="Paragliding">
-									<cite title="Wikipedia">Wikipedia</cite>
-								</a>
-							</footer>
-						</blockquote>
-						<p>
-							As I stood on top of the mountain, I could barely see where we had come from. We were
-							quite far and way up!
-						</p>
-						<p>
-							<strong>“Do I really want to do this?”</strong>
-						</p>
-						<p>
-							Behind me was a couple that had just decided not to jump and would return. The thought
-							of returning began creeping. But the road we drove through wasn’t that pleasant as well,
-							so I was now locked in a fight or flight situation. Return down the crazy scary road or
-							jump 6500ft down.
-						</p>
-						<p>
-							For any adventurer, the choice to make was pretty obvious. The pilot tied on the belts
-							to the parachute and off we jumped. 1969m above the sea we glided and I couldn’t believe
-							myself. For the first few minutes it was quite a terrifying experience. The friendly pilot
-							began a conversation to ease the flight and then abruptly began shouting, “I’m losing
-							control, we are falling, we are going die, we are going to die!” You can imagine how
-							terrified I must have been. Upon realising that it was a prank I immediately burst
-							out in laughter. Quite a spectacular one he pulled there! “If you weren’t the pilot,
-							I would have killed you my friend,” I roared.
-						</p>
-						<img
-              src="/blogs/tinashe-zvihwati-paragliding-fethiye-two.jpg"
-              class="img-fluid rounded"
-              data-holder-rendered="true"
-              alt="Paragliding in Fethiye"
-            />
-						<br><br><br>
-						<p>
-							Mid-air he began showing me some cool tricks and flips and that’s when the real fun
-							began. He could rotate, flip, swing, and fly up and down again. Suddenly I didn’t
-							want to land anymore. The more the tricks the more the thrill became. I couldn’t stop
-							gazing down the marvelous aerial view of Fethiye’s Ölüdeniz. It was a satisfying scene
-							to watch.
-						</p>
-						<p>
-							After quite some time in the air, we finally landed. The experience became one of my
-							greatest memories. And as they say, some memories are meant to last a lifetime.
+							Here are 11 facts about flying that might freak you:
 						</p>
 
+						<ol start="1">
+							<li>
+								Landing is nothing more than a controlled crash landing. In other words, technically
+								you are crashing. The good news though is that it’s controlled.
+							</li>
+							<br>
+							<li>
+								Aeroplanes get hit by lighting on a regular basis. The good news though is that
+								Aeroplanes are designed to be lighting-proof, and no plane has ever crashed due to a
+								lighting.
+							</li>
+							<br>
+							<li>
+								Turbulence is the wobbly movement of air which causes a plane to tremor or swerve
+								unsteadily. It happens very often and is the number one cause for flight anxiety.
+								Good news however is, that it is perfectly normal, and almost never puts the aircraft
+								in danger.
+							</li>
+							<br>
+							<li>
+								There is no row 13 aboard an aircraft. Most countries consider 13 an unlucky number.
+								We’re not superstitious, but you can never be too sure, right?
+							</li>
+							<br>
+							<li>
+								On passenger planes fuel tanks are integrated on the wings. Sometimes (if not many times)
+								planes offload the fuel in mid-air in a process called fuel jettison. I have witnessed
+								this on 2 occasions. The first time I saw it, I thought it was a leak and I was terrified.
+							</li>
+							<br>
+							<li>
+								Do pilots sleep during a flight? The simple answer is yes they sleep. In pilot terms they
+								call it controlled rest and they can sleep for up to 45 minutes. This has proven to
+								improve their alertness levels during periods of high workload e.g. descend, approach and
+								landing.
+							</li>
+							<br>
+							<li>
+								If you sit at the back of an aeroplane, your chances of surviving a crash are 40% higher.
+							</li>
+							<br>
+							<li>
+								Pilots aren’t allowed to share – food as a safety precaution. Pilots order and eat
+								different crew meals while on flight.
+							</li>
+							<br>
+							<li>
+								Aeroplanes’ engines vary from 2 to 6 engines. In case of failure, planes can fly with one
+								engine, and land with none.
+							</li>
+							<br>
+							<li>
+								Research shows that the first 3 minutes after take-off and the final 8 minutes before landing
+								are when 80% of plane crashes happen. While this may freak you out, flying is the safest mode
+								of transport in the world.
+							</li>
+							<br>
+							<li>
+								The fear for flying is called aviophobia.
+							</li>
+							<br>
+						</ol>
             <!-- Comments Form -->
             <div class="comments">
               <vue-disqus shortname="iamtinashe-io" :identifier="post.slug" :url="post.currenturl"></vue-disqus>
@@ -214,7 +178,7 @@
               <iframe
                 width="100%"
 								height="100%"
-                src="https://www.youtube.com/embed/0X7XscvFjTg?autoplay=1"
+                src="https://www.youtube.com/embed/LVYRclVjP2U?autoplay=1"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
@@ -234,21 +198,21 @@ export default {
   data(){
     return{
       post: {
-        title: "Paragliding Experience in Fethiye, Turkey",
+        title: "11 facts about flights and planes that may freak you",
         author: "Tinashe Zvihwati",
-        description: "I’m thrilled to share my paragliding experience in Fethiye, Turkey. It was one of my most adventurous experinces therefore definitely worth the share. And as they say, some memories are meant to last a lifetime.",
-        imagename: "tinashe-zvihwati-paragliding-fethiye.jpg",
-        slug: "paragliding-experience-in-fethiye-turkey",
-        createdAt: "2019-02-09T23:16:40.871Z",
-		updatedAt: "2019-02-09T23:16:40.871Z",
+        description: "For the last 7 years, I have flown a total of about 80 000km on 9 different airlines (that’s about 2 times Earth’s circumference). But with all the experience and the fact that flying is the safest mode of transport in the world I still get nervous about flying every now and then. I know a little too much about flying, hence think too much.",
+        imagename: "tinashe-zvihwati-facts-about-flights-and-planes-that-may-freak-you.jpg",
+        slug: "11-facts-about-flights-and-planes-that-may-freak-you",
+        createdAt: "2019-02-10T13:37:26.031Z",
+		updatedAt: "2019-02-10T13:37:26.031Z",
 		currenturl: "",
         category: {
             one: "Travel",
             two: "Photography",
-            three: "Turkey",
-            four: "Fethiye",
-            five: "",
-            six: ""
+            three: "Flight",
+            four: "Flying",
+            five: "Facts",
+            six: "Aviation"
         },
       },
     }
@@ -309,7 +273,7 @@ export default {
         {
 					hid: 'keywords',
           name: 'keywords',
-          content: this.post.category.one + ' ' + this.post.category.two + ' ' + this.post.category.three + ' ' + this.post.category.four + ' ' + this.post.category.five + ' ' + this.post.category.six + ' ' + 'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
+          content: this.post.category.one + ', ' + this.post.category.two + ', ' + this.post.category.three + ', ' + this.post.category.four + ', ' + this.post.category.five + ', ' + this.post.category.six + ', ' + 'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
         },
         {
 					hid: 'google-site-verification',
