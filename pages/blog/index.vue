@@ -80,10 +80,7 @@ export default {
     return {
       posts: [],
       error: '',
-      text: '',
-      markers: [
-        {position: {lat: 38.3141088, lng: 26.6340546}}
-      ]
+      text: ''
     }
   },
   async created() {
@@ -95,7 +92,8 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      return require('../../static/blogs/' + pic)
+      var ImagePath = '/blogs/' + pic
+      return ImagePath
     }
   }
 }
