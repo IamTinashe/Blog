@@ -169,9 +169,15 @@
           </div>
 
           <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Qoute</h5>
-            <div class="card-body">Be the author of your own story</div>
+          <div class="card my-4" style="height: 200px;">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/hJbjLaCJd6g?autoplay=1"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
@@ -196,7 +202,7 @@ export default {
         slug: 'working-with-a-senior-developer',
         createdAt: '2018-11-14T16:58:41.234Z',
         updatedAt: '2018-11-15T13:26:32.276Z',
-        currenturl: '',
+        currenturl: 'https://www.iamtinashe.io/blog/working-with-a-senior-developer',
         category: {
           one: 'Web Design',
           two: 'JavaScript',
@@ -213,7 +219,6 @@ export default {
   },
   async created() {
     try {
-      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
       var posts = await PostService.getPosts()
       this.recommended = posts[Math.floor(Math.random() * posts.length)]
     } catch (err) {

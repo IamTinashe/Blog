@@ -284,7 +284,7 @@ export default {
         slug: 'paragliding-experience-in-fethiye-turkey',
         createdAt: '2019-02-09T23:16:40.871Z',
         updatedAt: '2019-02-09T23:16:40.871Z',
-        currenturl: '',
+        currenturl: 'https://www.iamtinashe.io/blog/paragliding-experience-in-fethiye-turkey',
         category: {
           one: 'Travel',
           two: 'Photography',
@@ -301,7 +301,6 @@ export default {
   },
   async created() {
     try {
-      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
       var posts = await PostService.getPosts()
       this.recommended = posts[Math.floor(Math.random() * posts.length)]
     } catch (err) {

@@ -225,7 +225,7 @@ export default {
         slug: '11-facts-about-flights-and-planes-that-may-freak-you',
         createdAt: '2019-02-10T13:37:26.031Z',
         updatedAt: '2019-02-10T13:37:26.031Z',
-        currenturl: '',
+        currenturl: 'https://www.iamtinashe.io/blog/11-facts-about-flights-and-planes-that-may-freak-you',
         category: {
           one: 'Travel',
           two: 'Photography',
@@ -242,7 +242,6 @@ export default {
   },
   async created() {
     try {
-      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
       var posts = await PostService.getPosts()
       this.recommended = posts[Math.floor(Math.random() * posts.length)]
     } catch (err) {
