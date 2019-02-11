@@ -27,16 +27,16 @@
           <!-- Post Content -->
           <p class="lead">{{ post.description }}</p>
           <p>
-            Among hundreds if not thousands of interesting facts about flying and aeroplanes,
-            I have decided to compile 11 facts that may freak you out. But do not be moved, for
-            there is a calming side to each of the facts.
+            Among plenty of interesting facts about flying and aeroplanes, I have decided to
+            compile 11 facts that may freak you out. The list is not intended to discourage
+            anyone from flying, but to educate.
           </p>
-          <p>Here are 11 facts about flying that might freak you:</p>
+          <p>Here are 11 facts about flying that may leave you stunned:</p>
 
           <ol start="1">
             <li>
-              Landing is nothing more than a controlled crash landing. In other words, technically
-              you are crashing. The good news though is that it’s controlled.
+              Landing is nothing more than a controlled crash landing. In other words, everytime
+              you land, you are technically crashing, except it's controlled.
             </li>
             <br>
             <li>
@@ -46,10 +46,9 @@
             </li>
             <br>
             <li>
-              Turbulence is the wobbly movement of air which causes a plane to tremor or swerve
-              unsteadily. It happens very often and is the number one cause for flight anxiety.
-              Good news however is, that it is perfectly normal, and almost never puts the aircraft
-              in danger.
+              Turbulence is the unsteady movement of air which causes a plane to tremor or swerve.
+              It happens very often and is the number one cause for flight anxiety. It is however
+              perfectly normal, and almost never puts the aircraft in danger.
             </li>
             <br>
             <li>
@@ -65,7 +64,7 @@
             <br>
             <li>
               Do pilots sleep during a flight? The simple answer is yes they sleep. In pilot terms they
-              call it controlled rest and they can sleep for up to 45 minutes. This has proven to
+              call it "controlled rest." They can sleep for up to 45 minutes and this has proven to
               improve their alertness levels during periods of high workload e.g. descend, approach and
               landing.
             </li>
@@ -73,13 +72,13 @@
             <li>If you sit at the back of an aeroplane, your chances of surviving a crash are 40% higher.</li>
             <br>
             <li>
-              Pilots aren’t allowed to share – food as a safety precaution. Pilots order and eat
+              Pilots aren’t allowed to eat or share the same food as a safety precaution. Pilots order and eat
               different crew meals while on flight.
             </li>
             <br>
             <li>
-              Aeroplanes’ engines vary from 2 to 6 engines. In case of failure, planes can fly with one
-              engine, and land with none.
+              Commercial passenger aeroplane engines vary from 2 to 6. In case of failure, planes are able to
+              fly with one engine, and can land without and engine at all.
             </li>
             <br>
             <li>
@@ -115,7 +114,7 @@
           <!-- Search Widget -->
           <div class="card my-4">
             <h5 class="card-header">Recommended</h5>
-            <router-link :to="'/blog/' + recommended.slug">
+            <router-link :to="'/blog/' + recommended.slug" :title="recommended.title">
               <div class>
                 <img
                   :src="getImgPath(recommended.imagename)"
@@ -221,10 +220,8 @@ export default {
       post: {
         title: '11 facts about flights and planes that may freak you',
         author: 'Tinashe Zvihwati',
-        description:
-          'For the last 7 years, I have flown a total of about 80 000km on 9 different airlines (that’s about 2 times Earth’s circumference). But with all the experience and the fact that flying is the safest mode of transport in the world I still get nervous about flying every now and then. Here is why.',
-        imagename:
-          'tinashe-zvihwati-facts-about-flights-and-planes-that-may-freak-you.jpg',
+        description: 'For the last 7 years, I flew a total of about 80 000km on 9 different airlines. That’s about 2 times Earth’s circumference. But with all the experience and the fact that flying is the safest mode of transport in the world I still get nervous about flying every now and then. Here is why!',
+        imagename: 'tinashe-zvihwati-facts-about-flights-and-planes-that-may-freak-you.jpg',
         slug: '11-facts-about-flights-and-planes-that-may-freak-you',
         createdAt: '2019-02-10T13:37:26.031Z',
         updatedAt: '2019-02-10T13:37:26.031Z',
@@ -245,9 +242,9 @@ export default {
   },
   async created() {
     try {
+      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
       var posts = await PostService.getPosts()
       this.recommended = posts[Math.floor(Math.random() * posts.length)]
-      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
     } catch (err) {
       this.error = err.message
     }

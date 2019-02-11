@@ -173,7 +173,7 @@
           <!-- Search Widget -->
           <div class="card my-4">
             <h5 class="card-header">Recommended</h5>
-            <router-link :to="'/blog/' + recommended.slug">
+            <router-link :to="'/blog/' + recommended.slug" :title="recommended.title">
               <div class>
                 <img
                   :src="getImgPath(recommended.imagename)"
@@ -301,9 +301,9 @@ export default {
   },
   async created() {
     try {
+      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
       var posts = await PostService.getPosts()
       this.recommended = posts[Math.floor(Math.random() * posts.length)]
-      this.post.currenturl = 'https://www.iamtinashe.io/' + post.slug
     } catch (err) {
       this.error = err.message
     }
