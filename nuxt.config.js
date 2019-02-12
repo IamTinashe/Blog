@@ -125,6 +125,14 @@ module.exports = {
       {
         src: "https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js",
         type: "text/javascript"
+      },
+      {
+        src: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+        type: "text/javascript"
       }
     ],
   },
