@@ -1,58 +1,58 @@
 <template>
   <Slide>
-    <router-link
-      :to="'/'"
+    <a
+      href="/"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Home"
       id="Home"
     >
       <span>Home</span>
-    </router-link>
-    <router-link
-      :to="'/profile'"
+    </a>
+    <a
+      href="/profile"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Profile"
       id="Profile"
     >
       <span>Profile</span>
-    </router-link>
-    <router-link
-      :to="'/blog'"
+    </a>
+    <a
+      href="/blog"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Blog"
       id="Blog"
     >
       <span>Blog</span>
-    </router-link>
-    <router-link
-      :to="'/photography'"
+    </a>
+    <a
+      href="/photography"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Photography"
       id="Photography"
     >
       <span>Photography</span>
-    </router-link>
-    <router-link
-      :to="'/social'"
+    </a>
+    <a
+      href="/social"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Social"
       id="Social"
     >
       <span>Social</span>
-    </router-link>
-    <router-link
-      :to="'/connect'"
+    </a>
+    <a
+      href="/connect"
       class="navbar-brand d-flex align-items-center"
       style="font-size: 15px;"
       title="Contact"
       id="Contact"
     >
       <span>Contact</span>
-    </router-link>
+    </a>
   </Slide>
 </template>
