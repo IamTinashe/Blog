@@ -2,10 +2,7 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-
-  /*
-   ** Headers of the page
-   */
+  
   head: {
     title: pkg.name,
     meta: [
@@ -127,33 +124,17 @@ module.exports = {
         type: "text/javascript"
       },
       {
-        src: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js",
-        type: "text/javascript"
-      },
-      {
         src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
         type: "text/javascript"
       }
     ],
   },
-
-  /*
-   ** Customize the progress-bar color
-   */
   loading: {
     color: '#fff'
   },
-
-  /*
-   ** Global CSS
-   */
   css: [
     "@/assets/style.scss"
   ],
-
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: [
     {src: "~/plugins/github-activity", ssr: false},
     {src: "~/plugins/vue-google-maps.js", ssr: false},
@@ -161,12 +142,9 @@ module.exports = {
     { src: '~plugins/ga.js', ssr: false },
     { src: '~/plugins/vue-google-adsense', ssr: false },
     { src: '~/plugins/vue-filter-date-format.js', ssr: false},
-    { src: '~/plugins/vuedisqus.js', ssr: false}
+    { src: '~/plugins/vuedisqus.js', ssr: false},
+    { src: '~/plugins/vue-burger-menu.js', ssr: false}
   ],
-
-  /*
-   ** Nuxt.js modules
-   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
@@ -175,24 +153,13 @@ module.exports = {
     // https://www.npmjs.com/package/@nuxtjs/sitemap
     '@nuxtjs/sitemap'
   ],
-  /*
-   ** Axios module configuration
-   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
-  /*
-   ** Build configuration
-   */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
     transpile: [/^vue2-google-maps($|\/)/],
     vendor:["vue2-google-maps"]
   },
-
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.iamtinashe.io',
