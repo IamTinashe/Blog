@@ -1,46 +1,24 @@
 <template>
-  <Slide>
-    <router-link
-      :to="'/'"
-      title="Home"
-      id="Home"
-    >
-      <span>Home</span>
-    </router-link>
-    <router-link
-      :to="'/profile'"
-      title="Profile"
-      id="Profile"
-    >
-      <span>Profile</span>
-    </router-link>
-    <router-link
-      :to="'/blog'"
-      title="Blog"
-      id="Blog"
-    >
-      <span>Blog</span>
-    </router-link>
-    <router-link
-      :to="'/photography'"
-      title="Photography"
-      id="Photography"
-    >
-      <span>Photography</span>
-    </router-link>
-    <router-link
-      :to="'/social'"
-      title="Social"
-      id="Social"
-    >
-      <span>Social</span>
-    </router-link>
-    <router-link
-      :to="'/connect'"
-      title="Contact"
-      id="Contact"
-    >
-      <span>Contact</span>
-    </router-link>
-  </Slide>
+  <div>
+    <Slide>
+      <router-link :to="'/'" title="Home" id="Home">
+        <span>Home</span>
+      </router-link>
+      <router-link :to="'/profile'" title="Profile" id="Profile">
+        <span>Profile</span>
+      </router-link>
+      <router-link :to="'/blog'" title="Blog" id="Blog">
+        <span>Blog</span>
+      </router-link>
+      <router-link :to="'/photography'" title="Photography" id="Photography">
+        <span>Photography</span>
+      </router-link>
+      <router-link :to="'/social'" title="Social" id="Social">
+        <span>Social</span>
+      </router-link>
+      <router-link :to="'/connect'" title="Contact" id="Contact">
+        <span>Contact</span>
+      </router-link>
+    </Slide>
+  </div>
 </template>
