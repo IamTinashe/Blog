@@ -154,7 +154,9 @@ module.exports = {
   },
   build: {
     transpile: [/^vue2-google-maps($|\/)/],
-    vendor:["vue2-google-maps"]
+    transpile: [/^vue-burger-menu($|\/)/],
+    vendor:["vue2-google-maps"],
+    vendor:["vue-burger-menu"]
   },
   sitemap: {
     path: '/sitemap.xml',
