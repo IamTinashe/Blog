@@ -32,7 +32,7 @@ module.exports = {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
+        content: 'Tinashe Zvihwati, Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati, Developer, Travel Blogger, Blogger'
       },
       {
         hid: 'google-site-verification',
@@ -121,10 +121,6 @@ module.exports = {
       },
       {
         src: "https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js",
-        type: "text/javascript"
-      },
-      {
-        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
         type: "text/javascript"
       }
     ],
