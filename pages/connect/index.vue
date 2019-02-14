@@ -1,14 +1,7 @@
 <template>
-  <div class="position" style="width: 100%;">
-    <div
-      class="row position"
-      style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; margin-top: 0px;"
-    >
-      <div
-        class="row position"
-        style="padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: 100%; height: 100%; z-index: -1; top: 0px;"
-      ></div>
-      <form method="post" style="width: 80%; padding: 100px 0px 50px 0px; margin-top: 100px;">
+  <div style="width: 100%;">
+    <div class="container">
+      <form method="post" style="margin-top: 100px;">
         <div class="row">
           <div class="col-md-12" style="text-align: left;">
             <h3 class="subtitle" style="color: #ffffff;">Send me a message</h3>
@@ -45,18 +38,14 @@
           </div>
         </div>
       </form>
-      <div class="row" style="width: 80%; margin-bottom: 50px;">
+      <div class="row" style="margin-bottom: 50px;">
         <div class="col-md-6">
           <div
             style="border-radius: 2px 2px 2px 2px; background: #ffffff; text-align: left; margin-right: 5px; float: left; width: 100%; height: 300px;"
           >
-            <h5
-              class="subtitle"
-              style="font-size: 18px; margin-top: 40px; margin-left: 7%;"
-            >Contact Details</h5>
             <div
               class="row prof-blok"
-              style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 0px; margin-top: 0px;"
+              style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 0px; margin-top: 30px;"
             >
               <div class="md-col-5" style="width: 10%; margin-left: 10%;">
                 <p class="fonts-seven">Email</p>
