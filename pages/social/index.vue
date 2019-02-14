@@ -75,3 +75,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'IamTinashe | Social',
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io/social'
+        }
+      ]
+    }
+  }
+}
+</script>

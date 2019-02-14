@@ -117,16 +117,17 @@ export default {
       return ImagePath
     }
 	},
-	head() {
-		return {
-			link: [
+  head() {
+    return {
+      title: 'IamTinashe | Blog',
+      link: [
         {
           hid: 'canonical',
           rel: 'canonical',
           href: 'https://www.iamtinashe.io/blog'
         }
-      ],
-		}
-	}
+      ]
+    }
+  }
 }
 </script>

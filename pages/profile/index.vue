@@ -231,6 +231,24 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: 'IamTinashe | Profile',
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io/profile'
+        }
+      ]
+    }
+  }
+}
+</script>
+
+
 <style>
 .externalLink:hover {
   color: #000000;

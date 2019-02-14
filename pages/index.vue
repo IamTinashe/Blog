@@ -249,6 +249,18 @@ export default {
       const difference = date2 - date1
       return (difference / 3600000 / 24).toFixed(0)
     }
+  },
+  head() {
+    return {
+      title: 'IamTinashe | Home',
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io/'
+        }
+      ]
+    }
   }
 }
 </script>

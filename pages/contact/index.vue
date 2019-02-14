@@ -111,6 +111,18 @@ export default {
         {position: {lat: -17.824220, lng: 31.049363}}
       ]
     };
+  },
+  head() {
+    return {
+      title: 'IamTinashe | Contact',
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: 'https://www.iamtinashe.io/contact'
+        }
+      ]
+    }
   }
 };
 </script>
