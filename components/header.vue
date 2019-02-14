@@ -104,8 +104,8 @@
                     <hr>
                     <li class="header__dropdown-menu-item">
                       <router-link
-                        :to="'/privacy-policy'"
-                        title="Privacy Policy"
+                        :to="'/terms-and-conditions'"
+                        title="Terms and Conditions"
                         class="header__dropdown-menu-link"
                       >
                         <div class="header__dropdown-menu-svg">
@@ -115,7 +115,7 @@
                             ></path>
                           </svg>
                         </div>
-                        <div class="header__dropdown-menu-text">Privacy Policy</div>
+                        <div class="header__dropdown-menu-text">Terms and Conditions</div>
                       </router-link>
                     </li>
                   </ul>
