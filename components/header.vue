@@ -91,7 +91,7 @@
                     </li>
                     <li class="header__dropdown-menu-item">
                       <router-link
-                        :to="'/connect'"
+                        :to="'/contact'"
                         title="Contact"
                         class="header__dropdown-menu-link"
                       >

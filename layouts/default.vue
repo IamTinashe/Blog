@@ -118,10 +118,10 @@
         <div class="row fonts-four position">
           <p>
             Developed by
-            <router-link
-              :to="'/'" title="Home">
+            <a
+              href="https://www.iamtinashe.io" title="Tinashe Zvihwati">
               Tinashe Zvihwati
-            </router-link>
+            </a>
             <br>Copyright 2018
           </p>
         </div>
