@@ -325,8 +325,8 @@ export default {
           'As a developer I figured that I needed a website of my own. One where I would play around with new technologies and share my experiences in the industry. After hearing a lot about Node and Vue JS I finally decided to build my website using the 2 JavaScript Frameworks. Here is how I did it.',
         imagename: 'tinashe-zvihwati-how-I-built-my-website-with-vuejs.jpg',
         slug: 'how-i-built-my-website-with-vuejs',
-        createdAt: '2019-02-09T23:16:40.871Z',
-        updatedAt: '2019-02-09T23:16:40.871Z',
+        createdAt: '2019-02-14T22:14:35.459Z',
+        updatedAt: '2019-02-14T22:14:35.459Z',
         currenturl:
           'https://www.iamtinashe.io/blog/how-i-built-my-website-with-vuejs',
         category: {
