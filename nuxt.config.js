@@ -138,8 +138,7 @@ module.exports = {
     { src: '~plugins/ga.js', ssr: false },
     { src: '~/plugins/vue-google-adsense', ssr: false },
     { src: '~/plugins/vue-filter-date-format.js', ssr: false},
-    { src: '~/plugins/vuedisqus.js', ssr: false},
-    { src: '~/plugins/vue-burger-menu.js', ssr: false}
+    { src: '~/plugins/vuedisqus.js', ssr: false}
   ],
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage

@@ -29,7 +29,7 @@
             <router-link :to="'/profile'" class="button1" title="Résumé">Résumé</router-link>
           </div>
           <div class="col-md-6">
-            <router-link :to="'/connect'" class="button1" title="Contact">Contact</router-link>
+            <router-link :to="'/contact'" class="button1" title="Contact">Contact</router-link>
           </div>
         </div>
       </div>
@@ -224,7 +224,7 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      return require('../static/blogs/' + pic)
+      return require('~/static/blogs/' + pic)
     },
     monthConv() {
       var month = new Array()
