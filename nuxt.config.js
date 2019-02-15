@@ -112,6 +112,10 @@ module.exports = {
       {
         rel: 'stylesheet',
         href: "https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css"
+      },
+      {
+        rel: 'stylesheet',
+        href: "//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
       }
     ],
     script: [
@@ -121,6 +125,14 @@ module.exports = {
       },
       {
         src: "https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js",
+        type: "text/javascript"
+      },
+      { 
+        src: "https://downloads.mailchimp.com/js/signup-forms/popup/embed.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js",
         type: "text/javascript"
       }
     ],
