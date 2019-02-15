@@ -359,18 +359,18 @@ export default {
           name: 'keywords',
           content:
             this.post.category.one +
-            ' ' +
+            ', ' +
             this.post.category.two +
-            ' ' +
+            ', ' +
             this.post.category.three +
-            ' ' +
+            ', ' +
             this.post.category.four +
-            ' ' +
+            ', ' +
             this.post.category.five +
-            ' ' +
+            ', ' +
             this.post.category.six +
-            ' ' +
-            'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati'
+            ', ' +
+            'Web Development, Nodejs, Vuejs, Mongodb, NGINX, Travel, Zimbabwe, Blogger, Writer, Photography, Tinashe, Zvihwati, Paragliding, Fethiye, Turkey'
         },
         {
           hid: 'google-site-verification',
