@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 100%;">
+  <div style="width: 100%; background-image: url('/background.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; top: 0;">
     <div class="container">
       <div
         class="row position"
