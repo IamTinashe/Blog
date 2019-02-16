@@ -190,6 +190,8 @@ export default {
   },
   methods: {
     setupMailchimpPopup() {
+      document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+      document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
       var mailchimpConfig = {
         baseUrl: 'mc.us20.list-manage.com',
         uuid: '894ab7106081ed108c704476f',
@@ -198,7 +200,7 @@ export default {
       // No edits below this line are required
       var chimpPopupLoader = document.createElement('script')
       chimpPopupLoader.src =
-        '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js'
+        'https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js'
       chimpPopupLoader.setAttribute(
         'data-dojo-config',
         'usePlainJson: true, isDebug: false'

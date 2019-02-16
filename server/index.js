@@ -17,6 +17,9 @@ app.use(cors())
 const posts = require('./routes/api/posts')
 app.use('/api/posts', posts)
 
+const mail = require('./routes/api/mail')
+app.use('/api/mail', mail)
+
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
