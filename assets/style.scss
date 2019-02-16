@@ -20,6 +20,16 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .header--icon{
+    background-color: gray;
+  }
+}
+
 
 .error {
   color: red;
