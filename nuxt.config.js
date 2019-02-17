@@ -110,7 +110,6 @@ module.exports = {
         rel: 'author',
         href: 'https://plus.google.com/u/0/104854325985685691264'
       },
-      ,
       {
         hid: 'publisher',
         rel: 'publisher',
