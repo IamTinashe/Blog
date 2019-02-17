@@ -106,6 +106,17 @@ module.exports = {
         href: 'https://www.iamtinashe.io'
       },
       {
+        hid: 'author',
+        rel: 'author',
+        href: 'https://plus.google.com/u/0/104854325985685691264'
+      },
+      ,
+      {
+        hid: 'publisher',
+        rel: 'publisher',
+        href: 'https://plus.google.com/u/0/104854325985685691264'
+      },
+      {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Montserrat:200,400,700'
       },
